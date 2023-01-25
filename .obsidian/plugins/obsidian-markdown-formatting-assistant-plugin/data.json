@@ -17,7 +17,7 @@
     {
       "name": "textEdit",
       "active": true,
-      "visible": false
+      "visible": true
     },
     {
       "name": "tables",
@@ -27,7 +27,7 @@
     {
       "name": "html",
       "active": true,
-      "visible": false
+      "visible": true
     },
     {
       "name": "latex",
@@ -42,7 +42,7 @@
     {
       "name": "colors",
       "active": true,
-      "visible": false
+      "visible": true
     },
     {
       "name": "callouts",

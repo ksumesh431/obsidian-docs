@@ -10,12 +10,13 @@
 > **Images, Volumes , containers and networks are the objects that are managed by docker daemon containerd**
 
 
-
+<br/>
 
 
 # Containers vs Virtualisation
  ![](Images/Pasted%20image%2020230126033431.png)
 
+<br/>
 
 ---
 
@@ -25,15 +26,24 @@
 ---
 
 
+<br/>
+
 # Docker image vs Container
 ![](Images/Pasted%20image%2020230126033454.png)
+
+<br/>
 
 > <span style="font-family:default; font-size:default; color:red">Dockerfile</span> contains instructions for the image. 
 > The docker image is created from a Dockerfile using `docker build .` command.
 > We can also use `docker build -f customName .` for building from a dockerfile with a custom name other than dockerfile
 > 
 
+<br/>
+
+
 ---
+
+<br/>
 
 > 
 > `docker run imageName` command is used to ***Start a container***
@@ -48,6 +58,9 @@
 ---
 
 
+
+<br/>
+
 `docker ps` command lists ***all the running containers***
 ![](Images/Pasted%20image%2020230126033518.png)
 
@@ -57,60 +70,79 @@
 
 > We can use `inspect` to get details like IP address of container
 
+<br/>
+
 - `docker stop containerName` to stop the running container
 
 
+<br/>
 
 ---
 
+<br/>
 
 `docker rm comtainerName` to *remove the container* even from the stopped containers list.
 - Can verify with `docker ps -a` 
 
+<br/>
 
 ---
 
+<br/>
 
 `docker images` *lists the images* present on the host locally.
 ![](Images/Pasted%20image%2020230126033543.png)
 
+<br/>
 
 ---
 
+<br/>
 
 `docker rmi imageName` to remove a locally pulled image.
 Can verify with docker images command.
 ##### MUST STOP AND DELETE THE CONTAINERS MADE FROM THE IMAGE TO USE THE `rmi` COMMAND
 
 
+<br/>
 
 ---
 
 
+<br/>
 
 # To stop all the containers at once.. even the running and non running ones
 
 To stop all the containers at once, run the command: `docker stop $(docker ps -aq)`  
 To remove all the stopped containers at once, run the command: `docker rm $(docker ps -aq)`
 
+<br/>
 
 ---
+
+<br/>
 
 # To remove all **Stopped** containers
  `docker container *prune*`
 
+<br/>
 
 ---
+
+<br/>
 
 # To run docker image in daemon mode.. use `-d` flag
 
 # To run an image with a specific name... use `docker run --name Name `
 > Must not use same --name again if used already for running container. 
 
+<br/>
+
  ## To rename a container 
 	 `docker container rename *oldName* *newName*`
 ---
 
+<br/>
 
 
 # Running a container in **interactive** mode and connecting to the **terminal**
@@ -125,8 +157,12 @@ To remove all the stopped containers at once, run the command: `docker rm $(doc
 
 > We can also use the `-itd` flag to run in detached and interactive mode
 
+<br/>
+
 ---
 
+
+<br/>
 
 # Port Mapping
 `docker run -p 80:5000 imageName`
@@ -135,19 +171,24 @@ To remove all the stopped containers at once, run the command: `docker rm $(doc
 ![](Images/Pasted%20image%2020230126033602.png)
 
 
+<br/>
+
 ---
 
 
+<br/>
 
 
 ## To get logs of the container which we ran.. we can use `docker logs containerName`
 
 To get realtime logs, use `-f ` flag
 
+<br/>
 
 ---
 
 
+<br/>
 
 # Containerizing an application with Dockerfile using docker build
 - First try to run the application manually and note down steps
@@ -160,16 +201,21 @@ To get realtime logs, use `-f ` flag
 
 > Once we use docker build to build an image, it is read only 
 
+<br/>
 
 ---
 
+<br/>
 
 ## To set env vars while running a container, use `-e` flag 
 `docker run -e KEY=value`
 
 
+<br/>
+
 ---
 
+<br/>
 
 # ENTRYPOINT vs CMD in dockerfile
 
@@ -201,7 +247,11 @@ To get realtime logs, use `-f ` flag
 > We can also overwrite entrypoint using `--entrypoint` flag while using run.
 
 
+<br/>
+
 ---
+
+<br/>
 
 # Docker compose
 To run various images together, we can use a docker-compose.yml file
@@ -224,7 +274,11 @@ Can use `-f ` flag for custom filename.
 Can use `docker-compose down` to stop the containers and networks created.
 
 
+<br/>
+
 ---
+
+<br/>
 
 # Volumes
 
@@ -248,7 +302,11 @@ docker run\
 > In case of Bind mounting, We mount any location on the docker host to the pathInContainer
 
 
+<br/>
+
 ---
+
+<br/>
 
 
 # Networking
@@ -262,12 +320,22 @@ docker run\
 `docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
 
 
+<br/>
+
 ---
+
+<br/>
 
 # To escape from a container shell without exiting the container    `cntrl + p + q`
 
+<br/>
 
 ---
+
+
+<br/>
+<br/>
+<br/>
 
 
 # New Format
