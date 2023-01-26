@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Kubernetes/Core Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f872d7038019e657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working with Strings/Grep.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "776832e546e10e1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working with Strings/Regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Working with Strings/Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Working with Strings/Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Working with Strings/Regex.md"
               }
             }
           },
@@ -180,11 +204,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "af4fd185d12308c6",
+  "active": "776832e546e10e1d",
   "lastOpenFiles": [
-    "Docker/Basics.md",
-    "Docker arch.png.md",
+    "Working with Strings/Grep.md",
     "Kubernetes/Core Concepts.md",
-    "README.md"
+    "README.md",
+    "Docker/Basics.md",
+    "Docker arch.png.md"
   ]
 }
