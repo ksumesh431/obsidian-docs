@@ -41,8 +41,8 @@
     },
     {
       "name": "colors",
-      "active": true,
-      "visible": true
+      "active": false,
+      "visible": false
     },
     {
       "name": "callouts",

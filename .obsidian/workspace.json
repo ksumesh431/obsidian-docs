@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b1fcf8bf82b9cf37",
+        "id": "34bb85d9eea3e9cc",
         "type": "tabs",
         "children": [
           {
-            "id": "649ee1bd98b0d76d",
+            "id": "78519ab81c1925e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Settings.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8705675a5151e40",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,57 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "06f28b302cc250e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Core Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "068cc7a1d94bacdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Core Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f872d7038019e657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Working with Strings/Grep.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "776832e546e10e1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Working with Strings/Regex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Working with Strings/Regex.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Working with Strings/Regex.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Working with Strings/Regex.md"
+                "file": "README.md"
               }
             }
           },
@@ -191,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,11 +168,16 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "776832e546e10e1d",
+  "active": "d8705675a5151e40",
   "lastOpenFiles": [
-    "Working with Strings/Grep.md",
+    "Obsidian Settings.md",
     "Kubernetes/Core Concepts.md",
-    "README.md",
+    "Linux/Run process as a service.md",
+    "Linux/Important commands.md",
+    "Working with Strings/Regex.md",
+    "Terraform/cidrsubnet function.md",
+    "Linux/Other commands.md",
+    "Working with Strings/Grep.md",
     "Docker/Basics.md",
     "Docker arch.png.md"
   ]
