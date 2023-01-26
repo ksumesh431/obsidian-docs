@@ -36,7 +36,8 @@ and not "foobar" or "fooxybar" or "baryfoo"
 <br/>
 
 `  .*  `  for ANY CHARACTER having ZERO OR MORE OCCOURENCES 
-<u>Example</u> ![](Images/Pasted%20image%2020230126150659.png)
+<u>Example</u> 
+![](Images/Pasted%20image%2020230126150659.png)
 
 <br/>
 
@@ -47,7 +48,8 @@ and not "foobar" or "fooxybar" or "baryfoo"
 `  \s  ` represents **whitespaces**
 Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 
-<u>Example</u>  ![](Images/Pasted%20image%2020230126150719.png)
+<u>Example</u>  
+![](Images/Pasted%20image%2020230126150719.png)
 
 <br/>
 
@@ -57,13 +59,15 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 
 ` [skp] ` Square brackets/ Character class represent ONE OF THE CHARACTERS IN SQAURE BRACKETS - s, k or p
 
-<u>Example</u> ![](Images/Pasted%20image%2020230126150742.png)
+<u>Example</u> 
+![](Images/Pasted%20image%2020230126150742.png)
 
 
 
 ` [^abc] ` The ^ or caret symbol represents exclusion/negation **<u>ONLY INSIDE SQUARED BRACKETS</u>**. 
 
-<u>Example</u>![](Images/Pasted%20image%2020230126150809.png)
+<u>Example</u>
+![](Images/Pasted%20image%2020230126150809.png)
 
 <br/>
 
@@ -74,7 +78,8 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 ` [a-c] ` Range that is one of the characters falling in the range given in square brackets
 > **ASCII value of range starting character must be less than the range ending character**
 
-<u>Example</u> ![](Images/Pasted%20image%2020230126150844.png)
+<u>Example</u> 
+![](Images/Pasted%20image%2020230126150844.png)
 
 
 <br/>
@@ -86,7 +91,8 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 
 > Combination of range and characters in a character class like  `[a-cx]` 
 
-<u>Example</u> ![](Images/Pasted%20image%2020230126150917.png)
+<u>Example</u>
+![](Images/Pasted%20image%2020230126150917.png)
 
 
 
@@ -98,7 +104,8 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 
 ` ^ $ * . [ () \ `  Are special characters that must be escaped using `\`  if want to use as Literal in a string.
 
-<u>Example</u> ![](Images/Pasted%20image%2020230126150940.png)
+<u>Example</u> 
+![](Images/Pasted%20image%2020230126150940.png)
 
 <br/>
 
@@ -121,7 +128,8 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 ` ^x ` The Caret symbol is a placeholder that signifies Beginning of line. The regex pattern will match the strings that begin with "x".
 > Works only outside the [ ]. Inside the [ ], it means the Negation symbol.
 
-<u>Example</u> ![](Images/Pasted%20image%2020230126151128.png)
+<u>Example</u> 
+![](Images/Pasted%20image%2020230126151128.png)
 
 <br/>
 
@@ -130,7 +138,8 @@ Can combine with *  like ` \s* ` for Zero or More OCCOURENCES of whitespaces
 
 ` x$ ` The Dollar symbol is a placeholder that signifies the end of a line. It must be placed at the end of the string too.
 
-<u>Example</u>  ![](Images/Pasted%20image%2020230126151147.png)
+<u>Example</u>  
+![](Images/Pasted%20image%2020230126151147.png)
 
 > Combination of ` ^ and $ `  
 > ![](Images/Pasted%20image%2020230126151206.png)
