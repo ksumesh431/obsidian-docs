@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "78519ab81c1925e0",
+            "id": "c274ee8b7ee5b068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Settings.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8705675a5151e40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Kubernetes/Core Concepts.md"
               }
             }
           },
@@ -155,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,17 +155,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "d8705675a5151e40",
+  "active": "c274ee8b7ee5b068",
   "lastOpenFiles": [
-    "Obsidian Settings.md",
+    "Kubernetes/CKA Tips.md",
+    "Kubernetes/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf",
     "Kubernetes/Core Concepts.md",
-    "Linux/Run process as a service.md",
-    "Linux/Important commands.md",
-    "Working with Strings/Regex.md",
-    "Terraform/cidrsubnet function.md",
-    "Linux/Other commands.md",
     "Working with Strings/Grep.md",
+    "Obsidian Settings.md",
     "Docker/Basics.md",
-    "Docker arch.png.md"
+    "k8s-tickets/Ticket-1.md",
+    "Kubernetes/Images/Pasted image 20230127013043.png",
+    "Linux/Run process as a service.md",
+    "Linux/Other commands.md"
   ]
 }

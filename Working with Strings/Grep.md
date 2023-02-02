@@ -6,6 +6,7 @@
 `grep x * ` looks for x in all directories
 `grep -r x /path ` looks for x recursively in the path
 
+` -B 2 ` outputs 2 lines before the matched string and ` -A`  for after
 
 
 
