@@ -20,6 +20,14 @@
 <br/>
 <br/>
 
+![](Images/Pasted%20image%2020230130204046.png)
+
+
+<br/>
+<br/>
+
+
+
 ---
 
 
@@ -120,7 +128,7 @@ kube-proxy is installed on each node and its job is to look for new services and
 ---
 
 
-# Pods
+# Pods (pod)
 
 ## Sample pod defination using yaml
 ![](Images/Pasted%20image%2020230127020754.png)
@@ -129,10 +137,11 @@ kube-proxy is installed on each node and its job is to look for new services and
 > can use any key value pair under the labels in metadata
 
 
-
+<br/>
 
 <br/>
-![](Images/Pasted%20image%2020230130204046.png)
+
+
 
 
 <br/>
@@ -150,7 +159,7 @@ To run pod using command line
 ---
 
 
-# ReplicaSets
+# ReplicaSets (rs)
 
 
 ## ReplicationController (old)
@@ -184,9 +193,11 @@ To run pod using command line
 
 
 
-# Deployments
+# Deployments (deploy)
 
-Only differnce from replicaset is the "kind" field
+Deployments are used to specify many properties like deplyment stratagies of rolling or recreate deployment.
+Only differnce from replicaset syntax is the "kind" field.
+
 
 Can also use command line to create deployments directly without using yml
 ![](Images/Pasted%20image%2020230201161921.png)
@@ -204,7 +215,7 @@ Can also use command line to create deployments directly without using yml
 
 
 
-# Services
+# Services (svc)
 
 <br/>
 
@@ -232,7 +243,7 @@ Exposes the service on a cluster-internal IP. Choosing this value makes the serv
 
 ---
 
-# Namespaces
+# Namespaces (ns)
 
 To refer to services in same or differnt namespaces
 
@@ -242,7 +253,7 @@ To refer to services in same or differnt namespaces
 
 <br/>
 
-## Creating anmespaces
+## Creating Namespaces 
 
 ![](Images/Pasted%20image%2020230202210453.png)
 
@@ -253,5 +264,25 @@ To refer to services in same or differnt namespaces
 
 
 <br/>
+
+### For getting resources in all namespaces
+`kubectl get deployments --all-namespaces`
+
+
+<br/>
+
+## Assigning resource quota for resources in a namespace
+![](Images/Pasted%20image%2020230202211600.png)
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+
 
 

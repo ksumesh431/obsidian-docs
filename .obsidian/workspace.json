@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c274ee8b7ee5b068",
+            "id": "a7d806962b1a4d5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Core Concepts.md"
+                "file": "Kubernetes/Scheduling.md"
               }
             }
           },
@@ -155,17 +156,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c274ee8b7ee5b068",
+  "active": "af4fd185d12308c6",
   "lastOpenFiles": [
-    "Kubernetes/CKA Tips.md",
-    "Kubernetes/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf",
+    "Kubernetes/Other commands.md",
+    "Kubernetes/Scheduling.md",
     "Kubernetes/Core Concepts.md",
-    "Working with Strings/Grep.md",
-    "Obsidian Settings.md",
+    "Linux/Other commands.md",
+    "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf",
+    "Kubernetes/pdfs/Core-concepts-2.pdf",
     "Docker/Basics.md",
-    "k8s-tickets/Ticket-1.md",
-    "Kubernetes/Images/Pasted image 20230127013043.png",
-    "Linux/Run process as a service.md",
-    "Linux/Other commands.md"
+    "Working with Strings/Regex.md",
+    "Working with Strings/Grep.md",
+    "Working with Strings/Regex 1.md"
   ]
 }
