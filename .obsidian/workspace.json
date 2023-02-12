@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "34bb85d9eea3e9cc",
+        "id": "57b53b4a74fc504b",
         "type": "tabs",
         "children": [
           {
-            "id": "055e5fe4dd5e91b4",
+            "id": "1db86bd24a79b512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Logging n Monitoring.md",
+                "file": "Kubernetes/Other commands.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bece346a76b7901d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Application Lifecycle Management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "243936ca576862c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Encryption at Rest.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Encryption at Rest.md",
+                "file": "Kubernetes/Other commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Encryption at Rest.md",
+                "file": "Kubernetes/Other commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Encryption at Rest.md"
+                "file": "Kubernetes/Other commands.md"
               }
             }
           },
@@ -180,17 +155,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "243936ca576862c6",
+  "active": "1db86bd24a79b512",
   "lastOpenFiles": [
-    "Kubernetes/Application Lifecycle Management.md",
-    "Kubernetes/Other commands.md",
     "Linux/Other commands.md",
-    "Linux/Important commands.md",
-    "Kubernetes/Core Concepts.md",
-    "Kubernetes/Logging n Monitoring.md",
+    "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/Scheduling.md",
+    "Kubernetes/Core Concepts.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Kubernetes/Other commands.md",
+    "Linux/Important commands.md",
+    "Kubernetes/Logging n Monitoring.md",
     "Docker/Basics.md",
-    "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf",
-    "Kubernetes/pdfs/Core-concepts-2.pdf"
+    "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf"
   ]
 }
