@@ -35,6 +35,8 @@ Edit the kube-apiserver config file.
 
 
 <br/>
+
+
 ![](Images/Pasted%20image%2020230212223616.png)
 
 
