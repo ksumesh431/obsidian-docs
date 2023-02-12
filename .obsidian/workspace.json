@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Application Lifecycle Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Application Lifecycle Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Application Lifecycle Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Scheduling.md"
+                "file": "Kubernetes/Application Lifecycle Management.md"
               }
             }
           },
@@ -157,12 +157,12 @@
   },
   "active": "1db86bd24a79b512",
   "lastOpenFiles": [
+    "Kubernetes/Scheduling.md",
     "Kubernetes/Logging n Monitoring.md",
     "Kubernetes/Core Concepts.md",
     "Kubernetes/Other commands.md",
     "Linux/Other commands.md",
     "Kubernetes/Application Lifecycle Management.md",
-    "Kubernetes/Scheduling.md",
     "Kubernetes/Encryption at Rest.md",
     "Linux/Important commands.md",
     "Docker/Basics.md",

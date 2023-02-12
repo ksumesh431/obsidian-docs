@@ -7,12 +7,16 @@
 ![](Images/Pasted%20image%2020230212172944.png)
 
 
----
 
 <br/>
 <br/>
 
 ---
+
+---
+<br/>
+<br/>
+
 
 
 # Rolling vs Blue Green
@@ -25,27 +29,28 @@ Blue-Green updates, on the other hand, involve creating a duplicate of your appl
 
 
 
-
----
-
 <br/>
 <br/>
 
 ---
 
+---
+<br/>
+<br/>
 
 
 # Rollback a deployment 
 
 ![](Images/Pasted%20image%2020230212173844.png)
 
-
----
-
 <br/>
 <br/>
 
 ---
+
+---
+<br/>
+<br/>
 
 # Rolling Update 
 
@@ -53,13 +58,14 @@ Blue-Green updates, on the other hand, involve creating a duplicate of your appl
 ![](Images/Pasted%20image%2020230212175909.png)
 
 
-
----
-
 <br/>
 <br/>
 
 ---
+
+---
+<br/>
+<br/>
 
 
 # command and args
@@ -109,14 +115,14 @@ Can also use just command like this
 ![](Images/Pasted%20image%2020230212202117.png)
 
 
-
----
-
 <br/>
 <br/>
 
 ---
 
+---
+<br/>
+<br/>
 
 # Environment Variables
 
@@ -126,13 +132,15 @@ Can be set using basic env syntax, configmaps, and secrets
 
 
 
-
----
-
 <br/>
 <br/>
 
 ---
+
+---
+<br/>
+<br/>
+
 
 # ConfigMaps
 
@@ -155,14 +163,14 @@ Can also add a single key value pair from a config map
 
 
 
-
----
-
 <br/>
 <br/>
 
 ---
 
+---
+<br/>
+<br/>
 
 
 
