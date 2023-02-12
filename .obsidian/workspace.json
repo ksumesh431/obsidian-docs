@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Core Concepts.md"
+                "file": "Kubernetes/Scheduling.md"
               }
             }
           },
@@ -157,14 +157,14 @@
   },
   "active": "1db86bd24a79b512",
   "lastOpenFiles": [
+    "Kubernetes/Logging n Monitoring.md",
+    "Kubernetes/Core Concepts.md",
     "Kubernetes/Other commands.md",
     "Linux/Other commands.md",
     "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/Scheduling.md",
-    "Kubernetes/Core Concepts.md",
     "Kubernetes/Encryption at Rest.md",
     "Linux/Important commands.md",
-    "Kubernetes/Logging n Monitoring.md",
     "Docker/Basics.md",
     "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf"
   ]

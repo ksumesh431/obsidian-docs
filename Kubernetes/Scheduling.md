@@ -2,9 +2,16 @@
 Debugging scheduling failiures
 https://www.datadoghq.com/blog/debug-kubernetes-pending-pods/#persistentvolume-related-scheduling-failures
 
+
+<br/>
+<br/>
+
+---
+
 ---
 <br/>
 <br/>
+
 
 # Manually scheduling an existing pod. Have to send a binding object as json in a post request
 
@@ -13,9 +20,16 @@ https://www.datadoghq.com/blog/debug-kubernetes-pending-pods/#persistentvolume-r
 <br/>
 ## Or can change the yaml file and use `kubectl replace --force -f nginx.yml` which will delete the existing pod and create it
 
+
+<br/>
+<br/>
+
+---
+
 ---
 <br/>
 <br/>
+
 
 # Labels and Selectors
 
@@ -24,9 +38,16 @@ https://www.datadoghq.com/blog/debug-kubernetes-pending-pods/#persistentvolume-r
 ### selectors can also be used in the command line ![](Images/Pasted%20image%2020230204171821.png)
 
 
+
+<br/>
+<br/>
+
+---
+
 ---
 <br/>
 <br/>
+
 
 
 # Taints and Tolerations
@@ -56,11 +77,14 @@ Set tolerations like this on the pod.yaml in Double Quotes ![](Images/Pasted%20i
 
 
 
+<br/>
+<br/>
+
+---
 
 ---
 <br/>
 <br/>
-
 
 
 # Node Affinity
@@ -80,6 +104,10 @@ Example: To schedule the pods on the nodes which have a specific key, we can use
 
 
 
+<br/>
+<br/>
+
+---
 
 ---
 <br/>
@@ -95,11 +123,14 @@ Example: To schedule the pods on the nodes which have a specific key, we can use
 
 
 
+<br/>
+<br/>
+
+---
 
 ---
 <br/>
 <br/>
-
 
 
 
@@ -112,10 +143,14 @@ Use cases: Logging pod, kube-proxy etc.
 Very similar syntax to replica sets , except the `kind: DaemonSet`
 
 
----
 <br/>
 <br/>
 
+---
+
+---
+<br/>
+<br/>
 
 
 
