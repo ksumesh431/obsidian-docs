@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Other commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Other commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Other commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Scheduling.md"
+                "file": "Kubernetes/Other commands.md"
               }
             }
           },
@@ -156,12 +155,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "af4fd185d12308c6",
+  "active": "a7d806962b1a4d5f",
   "lastOpenFiles": [
-    "Kubernetes/Other commands.md",
     "Kubernetes/Scheduling.md",
-    "Kubernetes/Core Concepts.md",
+    "Kubernetes/Other commands.md",
     "Linux/Other commands.md",
+    "Kubernetes/Core Concepts.md",
     "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf",
     "Kubernetes/pdfs/Core-concepts-2.pdf",
     "Docker/Basics.md",

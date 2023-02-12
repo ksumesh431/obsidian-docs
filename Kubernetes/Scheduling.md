@@ -73,3 +73,76 @@ Set tolerations like this on the pod.yaml in Double Quotes ![](Images/Pasted%20i
 ## Types
 ![](Images/Pasted%20image%2020230211235140.png)
 
+
+## There are various operators
+
+Example: To schedule the pods on the nodes which have a specific key, we can use **EXISTS** operator ![](Images/Pasted%20image%2020230212020332.png)
+
+
+
+
+---
+<br/>
+<br/>
+
+
+
+# Resource Limits
+
+![](Images/Pasted%20image%2020230212022302.png)
+
+
+
+
+
+
+---
+<br/>
+<br/>
+
+
+
+
+
+
+# DaemonSet
+It ensures that one instance of the application is running on all pods
+Use cases: Logging pod, kube-proxy etc.
+
+Very similar syntax to replica sets , except the `kind: DaemonSet`
+
+
+---
+<br/>
+<br/>
+
+
+
+
+# Static Pods
+
+Can be deployed by kubelet by putting the pod.yaml files in the manifest folder
+
+Location of manifest folder can be determined by inspecting the following option of kubelet
+![](Images/Pasted%20image%2020230212030136.png)
+
+OR
+![](Images/Pasted%20image%2020230212030159.png)
+
+### Steps to delete existing static pod
+- Determine the node on which the pod is running by the pod name suffix
+- go to the pod and:
+![](Images/Pasted%20image%2020230212031546.png)
+
+
+<br/>
+
+![](Images/Pasted%20image%2020230212030225.png)
+
+
+
+
+
+
+
+
