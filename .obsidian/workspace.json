@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Other commands.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Other commands.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Other commands.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Other commands.md"
+                "file": "Kubernetes/Core Concepts.md"
               }
             }
           },
@@ -157,12 +157,12 @@
   },
   "active": "1db86bd24a79b512",
   "lastOpenFiles": [
+    "Kubernetes/Other commands.md",
     "Linux/Other commands.md",
     "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/Scheduling.md",
     "Kubernetes/Core Concepts.md",
     "Kubernetes/Encryption at Rest.md",
-    "Kubernetes/Other commands.md",
     "Linux/Important commands.md",
     "Kubernetes/Logging n Monitoring.md",
     "Docker/Basics.md",

@@ -33,13 +33,14 @@
 - The declarative way i.e YAML files
 
 
-
 <br/>
 <br/>
 
 ---
 
-
+---
+<br/>
+<br/>
 
 
 # etcd
@@ -51,9 +52,11 @@
 <br/>
 <br/>
 
-
 ---
 
+---
+<br/>
+<br/>
 
 # kube-apiserver
 
@@ -72,6 +75,9 @@ If set up manually as a service -> `/etc/systemd/system/kube-apiserver.service`
 
 ---
 
+---
+<br/>
+<br/>
 # kube-controller-manager
 > Controls  various controllers like node-controller, replication-controller etc
 
@@ -83,13 +89,14 @@ or the service directory `/etc/systemd/system/` in manual setup
 
 
 
-
-
 <br/>
 <br/>
 
 ---
 
+---
+<br/>
+<br/>
 
 # kube scheduler
 
@@ -103,6 +110,9 @@ Its responsible for deciding by filtering the nodes based on various criteria, r
 
 ---
 
+---
+<br/>
+<br/>
 
 # kubelet
 
@@ -114,6 +124,9 @@ NOTE: **kubelet doesnt automatically gets deployed with kubeadm , hence has to b
 
 ---
 
+---
+<br/>
+<br/>
 
 # kube-proxy
 
@@ -136,6 +149,9 @@ kube-proxy is installed on each node and its job is to look for new services and
 
 ---
 
+---
+<br/>
+<br/>
 
 # Pods (pod)
 
@@ -162,11 +178,15 @@ To run pod using command line
 
 ` kubectl delete pods --all` to delete all running pods at once
 
+
 <br/>
 <br/>
 
 ---
 
+---
+<br/>
+<br/>
 
 # ReplicaSets (rs)
 
@@ -200,6 +220,9 @@ To run pod using command line
 
 ---
 
+---
+<br/>
+<br/>
 
 
 # Deployments (deploy)
@@ -222,6 +245,9 @@ Can also use command line to create deployments directly without using yml
 
 ---
 
+---
+<br/>
+<br/>
 
 
 # Services (svc)
@@ -252,6 +278,9 @@ Exposes the service on a cluster-internal IP. Choosing this value makes the serv
 
 ---
 
+---
+<br/>
+<br/>
 # Namespaces (ns)
 
 To refer to services in same or differnt namespaces
@@ -292,6 +321,6 @@ To refer to services in same or differnt namespaces
 
 ---
 
-
-
-
+---
+<br/>
+<br/>
