@@ -28,6 +28,15 @@
 
 
 
+## There are always 2 ways of creating resources in kubernetes
+- The imperative way i.e using the command line with arguments
+- The declarative way i.e YAML files
+
+
+
+<br/>
+<br/>
+
 ---
 
 
