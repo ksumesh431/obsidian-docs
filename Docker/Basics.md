@@ -285,8 +285,10 @@ Can use `docker-compose down` to stop the containers and networks created.
 ## To map a volume on the docker host to a volume inside a container
 <span style="font-family:default; font-size:default; color:red"> So that data is persisted after container is removed and the container can use the persisted data when new container is up</span>
 `docker run -v /pathOnHost:/pathInsideContainer imageName`
+
 <br/>
-<u>Alternate Syntax</u>
+
+<u>Alternate Syntax (preffered)</u>  
 ``` 
 docker run\ 
 --mount type=bind,source=/pathOnHost,target=/pathInsideContainer imageName
@@ -302,6 +304,10 @@ docker run\
 > In case of Bind mounting, We mount any location on the docker host to the pathInContainer
 
 
+
+
+### For cloud storage
+![](Images/Pasted%20image%2020230213024713.png)
 <br/>
 
 ---

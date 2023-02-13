@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "57b53b4a74fc504b",
+        "id": "eba8a93aa76fdb47",
         "type": "tabs",
         "children": [
           {
-            "id": "1db86bd24a79b512",
+            "id": "7a443e4fe9281c4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Application Lifecycle Management.md",
+                "file": "Kubernetes/Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Application Lifecycle Management.md",
+                "file": "Kubernetes/Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Application Lifecycle Management.md",
+                "file": "Kubernetes/Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Application Lifecycle Management.md"
+                "file": "Kubernetes/Storage.md"
               }
             }
           },
           {
-            "id": "2025ab353ca88bdc",
+            "id": "5dd0186b7e48fc9b",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -155,17 +156,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "1db86bd24a79b512",
+  "active": "7a443e4fe9281c4d",
   "lastOpenFiles": [
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/Logging n Monitoring.md",
-    "Kubernetes/Core Concepts.md",
     "Kubernetes/Other commands.md",
+    "Kubernetes/Storage.md",
+    "Kubernetes/Scheduling.md",
+    "Docker/Basics.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Kubernetes/Cluster Maintainence.md",
     "Linux/Other commands.md",
     "Kubernetes/Application Lifecycle Management.md",
-    "Kubernetes/Encryption at Rest.md",
-    "Linux/Important commands.md",
-    "Docker/Basics.md",
-    "Kubernetes/pdfs/Deploy Your Private Docker Registry as a Pod in Kubernetes _ by Varun Kumar G _ The Startup _ Medium.pdf"
+    "Kubernetes/Core Concepts.md",
+    "Kubernetes/Logging n Monitoring.md"
   ]
 }

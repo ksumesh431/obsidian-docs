@@ -52,6 +52,8 @@ To monitor pods status live
 ---
 <br/>
 <br/>
+
+
 # To force replace a resource , by deleting old and replacing with new one. (When apply doesnt work)
 
 ![](Images/Pasted%20image%2020230212202542.png)
@@ -66,4 +68,44 @@ To monitor pods status live
 ---
 <br/>
 <br/>
+
+
+# To execute commands on a pod using exec
+
+`kubectl -n elastic-stack exec -it app -- cat /log/app.log`
+
+> -n is for namespace
+> app is pod name
+> commands are after --
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+# To get logs of a pod directly
+
+`kubectl logs podname `
+
+<br/>
+
+## To get log of a particular container in a pod
+
+`kubectl logs podname -c containerName`
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
 

@@ -43,3 +43,20 @@ Encoding n decoding using base64
 ![](Images/Pasted%20image%2020230212211249.png)
 
 ![](Images/Pasted%20image%2020230212211412.png)
+
+
+
+---
+
+<br/>
+<br/>
+
+---
+
+
+
+
+# Alias / shortcut commands
+
+`alias k=kubectl`
+
