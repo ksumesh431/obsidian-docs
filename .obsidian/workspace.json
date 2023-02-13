@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Miscellaneous/TLS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -157,15 +157,15 @@
   },
   "active": "583082f6052ce749",
   "lastOpenFiles": [
-    "Miscellaneous/Images/Pasted image 20230213232614.png",
+    "Miscellaneous/Images/Pasted image 20230213232343.png",
     "Miscellaneous/TLS.md",
+    "Miscellaneous/Images/Pasted image 20230213232614.png",
     "Kubernetes/Storage.md",
     "Kubernetes/Security.md",
     "Kubernetes/Scheduling.md",
     "Kubernetes/Other commands.md",
     "Kubernetes/Logging n Monitoring.md",
     "Kubernetes/Core Concepts.md",
-    "Kubernetes/Cluster Maintainence.md",
-    "Kubernetes/CKA Tips.md"
+    "Kubernetes/Cluster Maintainence.md"
   ]
 }

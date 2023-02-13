@@ -4,7 +4,7 @@
 
 Encrypting and decrypting data with the same key is called symmetric encryption.
 
-In this, the sender and reciever, both need to have the same key for cencryption/ decryption.
+In this, the sender and reciever, both need to have the same key for encryption/ decryption.
 
 
 
@@ -26,7 +26,7 @@ In this, the sender and reciever, both need to have the same key for cencryption
 
 ## In case of SSH
 
-![](Images/Pasted%20image%2020230213232343.png)
+![](Images/Pasted%20image%2020230214000754.png)
 
 <br/>
 
