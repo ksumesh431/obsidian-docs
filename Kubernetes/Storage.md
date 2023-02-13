@@ -1,13 +1,3 @@
-
-<br/>
-<br/>
-
----
-
----
-<br/>
-<br/>
-
 # Volumes and volumeMounts
 
 - The host path is the path on the Node . (must be lowercase name)

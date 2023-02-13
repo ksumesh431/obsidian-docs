@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a443e4fe9281c4d",
+            "id": "583082f6052ce749",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Storage.md",
-                "mode": "source",
+                "file": "Miscellaneous/TLS.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Miscellaneous/TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Miscellaneous/TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Storage.md"
+                "file": "Miscellaneous/TLS.md"
               }
             }
           },
@@ -155,17 +155,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "7a443e4fe9281c4d",
+  "active": "583082f6052ce749",
   "lastOpenFiles": [
-    "Kubernetes/Other commands.md",
+    "Miscellaneous/Images/Pasted image 20230213232614.png",
+    "Miscellaneous/TLS.md",
     "Kubernetes/Storage.md",
+    "Kubernetes/Security.md",
     "Kubernetes/Scheduling.md",
-    "Docker/Basics.md",
-    "Kubernetes/Encryption at Rest.md",
-    "Kubernetes/Cluster Maintainence.md",
-    "Linux/Other commands.md",
-    "Kubernetes/Application Lifecycle Management.md",
+    "Kubernetes/Other commands.md",
+    "Kubernetes/Logging n Monitoring.md",
     "Kubernetes/Core Concepts.md",
-    "Kubernetes/Logging n Monitoring.md"
+    "Kubernetes/Cluster Maintainence.md",
+    "Kubernetes/CKA Tips.md"
   ]
 }

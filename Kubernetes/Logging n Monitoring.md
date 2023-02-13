@@ -1,12 +1,4 @@
 
-<br/>
-<br/>
-
----
-
----
-<br/>
-<br/>
 
 
 # Application Logs
