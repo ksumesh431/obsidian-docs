@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/TLS.md",
+                "file": "Miscellaneous/Public Key Infratructure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/TLS.md",
+                "file": "Miscellaneous/Public Key Infratructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Miscellaneous/TLS.md",
+                "file": "Miscellaneous/Public Key Infratructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/TLS.md"
+                "file": "Miscellaneous/Public Key Infratructure.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "583082f6052ce749",
   "lastOpenFiles": [
+    "Miscellaneous/TLS 1.3.md",
+    "Miscellaneous/Public Key Infratructure.md",
     "Miscellaneous/Images/Pasted image 20230213232343.png",
-    "Miscellaneous/TLS.md",
     "Miscellaneous/Images/Pasted image 20230213232614.png",
     "Kubernetes/Storage.md",
     "Kubernetes/Security.md",
     "Kubernetes/Scheduling.md",
     "Kubernetes/Other commands.md",
     "Kubernetes/Logging n Monitoring.md",
-    "Kubernetes/Core Concepts.md",
-    "Kubernetes/Cluster Maintainence.md"
+    "Kubernetes/Core Concepts.md"
   ]
 }
