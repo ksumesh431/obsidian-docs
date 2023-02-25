@@ -78,7 +78,9 @@ If set up manually as a service -> `/etc/systemd/system/kube-apiserver.service`
 ---
 <br/>
 <br/>
+
 # kube-controller-manager
+
 > Controls  various controllers like node-controller, replication-controller etc
 
  **Controllers keep a watch on various components and are responsible for remidiating situations**
@@ -281,6 +283,8 @@ Exposes the service on a cluster-internal IP. Choosing this value makes the serv
 ---
 <br/>
 <br/>
+
+
 # Namespaces (ns)
 
 To refer to services in same or differnt namespaces

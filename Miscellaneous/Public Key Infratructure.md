@@ -33,7 +33,7 @@ In this, the sender and reciever, both need to have the same key for encryption/
 ## To give ssh access to other users 
 
 - Make the user generate public and private key
-- ssh with the existing key and copy the public key the the authorized_keys folder. This Locks the server with the new public key too.
+- ssh with the existing key and copy the public key the the authorized_keys . This Locks the server with the new public key too.
 - Now the other user can ssh using his private key
 
 ![](Images/Pasted%20image%2020230213234230.png)
@@ -147,7 +147,7 @@ To make sure the certificate is not fake, we check that who issued and signed th
 
 
 
-Note: The server also needs to verify the legitimacy of the client. 
+Note: The server also needs to verify the legitimacy of the CLIENT. 
 So the client also generates a set of public n private keys, gets a cert from CA and sends the signed certificate with public key to the server 
 
 

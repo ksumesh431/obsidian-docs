@@ -109,3 +109,8 @@ To monitor pods status live
 <br/>
 
 
+## To get container info, can use crictl for CRI compatible container runtimes
+
+`crictl ps -a`
+
+

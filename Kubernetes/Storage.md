@@ -133,7 +133,7 @@ spec:
 <br/>
 
 
-## Reclaim policies
+## PV Reclaim policies
 
 1.  Retain: When a PVC is released or deleted, the underlying storage resource is not deleted and remains available for use by other PVCs. This is useful when you want to manually manage the lifecycle of your storage resources and want to keep data available even after a PVC has been deleted.
     

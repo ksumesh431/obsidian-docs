@@ -45,6 +45,8 @@ Encoding n decoding using base64
 ![](Images/Pasted%20image%2020230212211412.png)
 
 
+### Can use `-w 0 ` with base64 to get output without new line
+
 
 ---
 

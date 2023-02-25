@@ -16,3 +16,24 @@ kill with sigstop signal sends the stop signal to the process so it is **Paused*
 `ps -aux `
 
 
+<br/>
+<br/>
+
+---
+---
+
+
+<br/>
+<br/>
+# To give 400 to windows pem file
+
+If you prefer to do it from UI
+
+-   select .pem file -> right click -> properties
+-   Security > Advanced > Disable inheritance
+-   Remove all Users
+-   Add > Select a principal
+-   In "Enter the object name to select" type your Windows username > ok
+-   Give all permissions > ok > apply
+
+## Wont work with wsl terminal 

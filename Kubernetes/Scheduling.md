@@ -55,7 +55,7 @@ https://www.datadoghq.com/blog/debug-kubernetes-pending-pods/#persistentvolume-r
 ## Taints (On NODES)
 The tainted nodes will by default restrict all pods 
 ![](Images/Pasted%20image%2020230211231513.png)
-> The **NoExecute** makes sure any existing "Pods which dont tolerate the taint" be removed
+> The **NoExecute** makes sure any existing "Pods which dont tolerate the taint" be removed from the node
 
 **<u>**To UnTaint a node, use the same command as taint with a - in the end**</u>**
 ![](Images/Pasted%20image%2020230211233918.png)
