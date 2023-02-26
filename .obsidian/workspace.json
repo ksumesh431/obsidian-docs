@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e8a33adcd0d6763e",
+        "id": "63be2e7a157a9130",
         "type": "tabs",
         "children": [
           {
-            "id": "c7f89acaa02b87a0",
+            "id": "1f9bb0c3f3e9f0bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Security.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Security.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Security.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Security.md"
+                "file": "Kubernetes/Core Concepts.md"
               }
             }
           },
@@ -155,12 +155,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c7f89acaa02b87a0",
+  "active": "1f9bb0c3f3e9f0bf",
   "lastOpenFiles": [
-    "Kubernetes/Application Lifecycle Management.md",
-    "Kubernetes/Security.md",
-    "Kubernetes/Storage.md",
     "Kubernetes/Other commands.md",
+    "Kubernetes/Security.md",
+    "Kubernetes/Application Lifecycle Management.md",
+    "Kubernetes/Storage.md",
     "Kubernetes/Core Concepts.md",
     "Linux/Other commands.md",
     "Linux/Important commands.md",

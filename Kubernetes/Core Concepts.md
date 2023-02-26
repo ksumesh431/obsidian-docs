@@ -335,14 +335,6 @@ To refer to services in same or differnt namespaces
 
 
 
-<br/>
-<br/>
-
----
-
----
-<br/>
-<br/>
 
 
 

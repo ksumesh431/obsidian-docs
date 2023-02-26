@@ -95,6 +95,17 @@
 
 <br/>
 
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
 # To get log of a particular container in a pod
 
 `kubectl logs podname -c containerName`
