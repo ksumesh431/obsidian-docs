@@ -178,3 +178,164 @@ Must add the relevant group details in the cert sign request to identify these k
 ## To switch to a context. Or to know current context
 
 ![](Images/Pasted%20image%2020230226015730.png)
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+# Authorization
+
+- ABAC (Attribute based access control)
+	Assigning rules manually to every user
+
+- RBAC(Role based.. role with permissions are created and role is assigned to respective user)
+
+- Webhook (3rd party authorization management.. example: open policy agent)
+
+- AlwaysAllow, AlwaysDeny
+
+> AlwaysAllow is set by default 
+
+<br/>
+
+##### Can set multiple modes. will check them in order
+
+![](Images/Pasted%20image%2020230226030940.png)
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+# RBAC
+Role Based Access Controls
+
+
+
+## Role Object (Namespace scoped)
+
+![](Images/Pasted%20image%2020230226220831.png)
+
+- In the rules, we need not to define the apiGroups for Core APIs. For any other group, we need to mention the group name
+
+<br/>
+
+## Can also give access to specific resource using its resource name
+
+![](Images/Pasted%20image%2020230226223507.png)
+
+
+
+
+
+
+
+<br/>
+
+## Must create a role binding object after creating role object
+
+![](Images/Pasted%20image%2020230226222641.png)
+
+> By default, configured for default namespace tho can set a custom namespace too in the metadata of binding file
+
+
+
+
+
+
+<br/>
+
+
+![](Images/Pasted%20image%2020230226222821.png)
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+# To check access
+
+`kubectl auth can-i create deployments`
+
+<br/>
+
+**Can also specify a user to check the user's access**
+`kubectl auth can-i cerate deployments --as dev-user `
+
+`kubectl auth can-i delete pods --as dev-user --namespace testNamespace`
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+# Cluster Roles and Cluster role bindings
+
+These are created for cluster scoped objects access.
+
+
+![](Images/Pasted%20image%2020230226232934.png)
+
+
+### We can use cluster role and bindings for namespace scoped resources too, but they will be applied namespace wide instead of a particular ns.
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+# Service accounts and tokens
+
+![](Images/Pasted%20image%2020230227002601.png)
+
+STEPS
+- create sa
+- create role and role binding with the sa in binding
+- create token for sa `kubectl create token dashboard-sa`

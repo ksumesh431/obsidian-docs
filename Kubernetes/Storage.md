@@ -175,7 +175,33 @@ If we define a storage class, then it automatically creates a pv when required. 
 ![](Images/Pasted%20image%2020230213204945.png)
 
 
-
+> In Kubernetes, dynamic provisioning is a feature that allows automatic creation of storage resources on demand when a Pod requests them. Dynamic provisioning can be achieved using Storage Classes.
+> 
+> A Storage Class is an object in Kubernetes that defines the properties of a specific type of storage that can be used to dynamically provision Persistent Volumes (PVs). It defines parameters such as the type of storage, the access mode, and the provisioner that will be used to create the storage.
+> 
+> Here's how dynamic provisioning works in Kubernetes using Storage Classes:
+> 
+> 1.  A user creates a Pod and specifies a Persistent Volume Claim (PVC) that requests a specific amount of storage with specific properties, such as access mode and storage class.
+> 
+> 2.  If a PV with the requested properties exists and is available, the PVC is bound to that PV, and the Pod can use the storage.
+> 
+> 3.  If a PV with the requested properties does not exist, Kubernetes uses the provisioner specified in the PVC's storage class to create a new PV that meets the requirements. The provisioner is responsible for creating and managing the underlying storage resource, such as a disk or a cloud-based storage service.
+> 
+> 4.  Once the new PV is created, the PVC is bound to it, and the Pod can use the storage.
+> 
+> 5.  When the Pod is deleted, the PV is released and can be reused by other Pods that request storage with similar properties.
+> 
+> 
+> Dynamic provisioning using Storage Classes has several advantages over static provisioning:
+> 
+> -   Automation: Storage resources are created automatically on demand, without the need for manual intervention.
+> 
+> -   Efficiency: Storage resources are only created when they are needed, reducing the amount of wasted storage.
+> 
+> -   Flexibility: Users can request storage with specific properties, such as access mode and storage class, and the storage system will provide the appropriate resources.
+> 
+> 
+> Overall, dynamic provisioning using Storage Classes is a powerful feature of Kubernetes that simplifies the management of storage resources for containerized applications.
 
 
 

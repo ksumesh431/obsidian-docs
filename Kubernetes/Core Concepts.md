@@ -79,6 +79,7 @@ If set up manually as a service -> `/etc/systemd/system/kube-apiserver.service`
 <br/>
 <br/>
 
+
 # kube-controller-manager
 
 > Controls  various controllers like node-controller, replication-controller etc
@@ -328,3 +329,42 @@ To refer to services in same or differnt namespaces
 ---
 <br/>
 <br/>
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+# API Groups
+
+![](Images/Pasted%20image%2020230226221736.png)
+
+
+<br/>
+
+
+## Core Groups
+
+![](Images/Pasted%20image%2020230226221810.png)
+
+
+<br/>
+
+
+
+## Named Groups
+
+![](Images/Pasted%20image%2020230226222013.png)
+
+Going forward, newer features are made available using the named groups

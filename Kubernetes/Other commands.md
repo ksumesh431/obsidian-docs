@@ -1,4 +1,4 @@
-To monitor pods status live 
+# To monitor pods status live 
 `kubectl get pods --watch`
 
 <br/>
@@ -11,7 +11,7 @@ To monitor pods status live
 <br/>
 
 
-### To get yaml output for a command without executing 
+# To get yaml output for a command without executing 
 `kubectl command --dry-run=client -o yaml`
 
 `kubectl get pod podName -o yaml` to get yaml output (MUST USE GET NOT DESCRIBE)
@@ -26,7 +26,7 @@ To monitor pods status live
 <br/>
 <br/>
 
-## To show objects in all namespaces
+# To show objects in all namespaces
 
 `--namespace=all`
 
@@ -95,7 +95,7 @@ To monitor pods status live
 
 <br/>
 
-## To get log of a particular container in a pod
+# To get log of a particular container in a pod
 
 `kubectl logs podname -c containerName`
 
@@ -113,4 +113,31 @@ To monitor pods status live
 
 `crictl ps -a`
 
+
+
+
+# kubectl proxy (not kube-proxy)
+
+![](Images/Pasted%20image%2020230226222229.png)
+
+Can start kube proxy server which will by default use the credentials in .kubeconfig
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+# To get namespace scoped or cluster scoped api resources 
+
+![](Images/Pasted%20image%2020230226233222.png)
 
