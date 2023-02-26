@@ -381,3 +381,13 @@ or unpause comamnd are used to pause container with state saved
  ### To send a kill signal to container
 `docker container kill --signal=9 *contName*`
 
+
+
+
+
+
+# To run docker image with all privilages or restricted privilages
+
+use `docker run --cap-drop KILL ubuntu `
+OR
+`docker run --privilages ubuntu`

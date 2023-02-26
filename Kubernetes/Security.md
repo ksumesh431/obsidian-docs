@@ -339,3 +339,133 @@ STEPS
 - create sa
 - create role and role binding with the sa in binding
 - create token for sa `kubectl create token dashboard-sa`
+
+
+
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+# Private registry Authentication
+
+
+Have to create a secret of type **docker-registry** and pass the credentials in that. And then have to use it in the pod defination under `imagePullSecrets`
+
+![](Images/Pasted%20image%2020230227015506.png)
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+# Security Contexts
+
+
+### Container Level
+
+![](Images/Pasted%20image%2020230227022429.png)
+
+
+<br/>
+
+
+### Pod level
+
+![](Images/Pasted%20image%2020230227022508.png)
+
+
+> If we set security context on both pod and container level, then the container security will overwrite the pod security
+
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+
+
+
+
+
+# Network Policy
+
+By default all pods have access to all other pods.
+To configure ingress or egress rules, we use network policies object.
+
+We match the pod using labels and selectors.
+
+- **The 1st selector under spec is to match the pod to which the policy is attached to.**
+
+- **The selector under ingress is to define that from which pod the ingress is allowed**
+
+
+![](Images/Pasted%20image%2020230227025326.png)
+
+> NOTE: The Network Solution must support network policies for it to work
+
+
+
+<br/>
+
+
+## Namespaces in network policies
+
+- If we set a namespace in the policy defination, it by default checks for rule's objects in that namespace.
+
+- If we want to set rules for objects in other namespaces, we can set them under namespace selector using label ![](Images/Pasted%20image%2020230227031002.png)
+
+- Using the above syntax without the ` - ` before namespaceSelector, it works as a AND operator. So pod must satisfy both conditions.
+
+- For it to work as OR operator, we can put ` - ` before it. ![](Images/Pasted%20image%2020230227031205.png)
+
+- For allowing a specific IP Address ![](Images/Pasted%20image%2020230227031251.png)
+
+<br/>
+<br/>
+
+
+
+### Egress
+
+![](Images/Pasted%20image%2020230227031525.png)
+
