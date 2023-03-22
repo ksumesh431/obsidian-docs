@@ -192,8 +192,6 @@ To run pod using command line
 <br/>
 
 # ReplicaSets (rs)
-
-
 ## ReplicationController (old)
 ![](Images/Pasted%20image%2020230201011101.png)
 

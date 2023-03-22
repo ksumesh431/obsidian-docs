@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "86d3d4a478d807ce",
+        "id": "ca0067765dee38ee",
         "type": "tabs",
         "children": [
           {
-            "id": "a682551c578c4b30",
+            "id": "589699a8cb1a8ee3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Namespaces.md",
+                "file": "Kubernetes/Networking.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "53f830339c63c313",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/terraform usecase.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Namespaces.md",
+                "file": "AWS/terraform usecase.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Namespaces.md",
+                "file": "AWS/terraform usecase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Namespaces.md"
+                "file": "AWS/terraform usecase.md"
               }
             }
           },
@@ -155,44 +168,50 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "a682551c578c4b30",
+  "active": "af4fd185d12308c6",
   "lastOpenFiles": [
+    "Kubernetes/Networking.md",
+    "AWS/terraform usecase.md",
+    "Kubernetes/Security.md",
+    "Kubernetes/Other commands.md",
+    "Networking/Basics.md",
+    "Networking/Namespaces.md",
+    "Kubernetes/Images/Pasted image 20230320074417.png",
+    "Kubernetes/Images/Pasted image 20230320074401.png",
+    "Kubernetes/Images/Pasted image 20230320073905.png",
+    "Kubernetes/Images/Pasted image 20230320073823.png",
+    "Kubernetes/Images/Pasted image 20230320073442.png",
     "Docker/Networking.md",
+    "Networking/DNS.md",
+    "Kubernetes/Core Concepts.md",
+    "AWS/CloudWatch.md",
+    "AWS/Others.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Kubernetes/Cluster Maintainence.md",
+    "Kubernetes/Application Lifecycle Management.md",
+    "Linux/Other commands.md",
+    "Kubernetes/Logging n Monitoring.md",
+    "Linux/Important commands.md",
+    "Linux/Run process as a service.md",
+    "Kubernetes/pdfs/Networking/Kubernetes-CKA-0800-Networking.pdf",
+    "Kubernetes/Networking",
     "Kubernetes/pdfs/Networking/Ingress.pdf",
     "Kubernetes/pdfs/Networking/Unconfirmed 608223.crdownload",
-    "Kubernetes/pdfs/Networking/Kubernetes-CKA-0800-Networking.pdf",
     "Kubernetes/pdfs/Networking/Unconfirmed 593206.crdownload",
     "Kubernetes/pdfs/Networking",
     "Kubernetes/pdfs/New folder",
     "Docker/Images/Pasted image 20230307085639.png",
     "Docker/Images/Pasted image 20230307085545.png",
-    "Networking/Namespaces.md",
     "Docker/Images/Pasted image 20230307085501.png",
     "Networking/Images/Pasted image 20230307084356.png",
     "Networking/Images/Pasted image 20230307084307.png",
-    "Networking/Images/Pasted image 20230307084115.png",
-    "Networking/Images/Pasted image 20230307083442.png",
-    "Networking/Images/Pasted image 20230307082846.png",
-    "Networking/Images/Pasted image 20230307082737.png",
-    "Networking/Images/Pasted image 20230307082423.png",
-    "Networking/Basics.md",
-    "Networking/DNS.md",
     "Working with Strings/Grep.md",
     "Working with Strings/Regex.md",
-    "Linux/Important commands.md",
-    "Linux/Other commands.md",
-    "Linux/Run process as a service.md",
     "Docker/Basics.md",
-    "AWS/CloudWatch.md",
-    "Kubernetes/Cluster Maintainence.md",
     "Networking/Images",
     "Networking",
     "Kubernetes/kubectx and kubens cli.md",
-    "Kubernetes/Security.md",
-    "Kubernetes/Core Concepts.md",
     "Kubernetes/Scheduling.md",
-    "Kubernetes/Other commands.md",
-    "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/Storage.md",
     "Miscellaneous/Public Key Infratructure.md"
   ]

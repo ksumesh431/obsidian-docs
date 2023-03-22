@@ -124,6 +124,18 @@ To make this persist on reboot, change in
 <br/>
 
 
+
+# To check default gateway route
+`ip route show default`
+
+
+
+<br/>
+<br/>
+
+
+
+
 # To check if ip forwarding is enabled, have to check
 ![](Images/Pasted%20image%2020230228024029.png)
 
@@ -172,3 +184,67 @@ To make this persist on reboot, change in
 
 ![](Images/Pasted%20image%2020230307073136.png)
 
+
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+
+# To check the network connectivity details
+
+#ports #netstat #PID 
+
+The `netstat -anp` command is a networking tool used to display active network connections and their associated processes on a Linux or Unix-based system. Here is a breakdown of each option and what it does:
+
+-   `netstat` - The command to display network connections.
+-   `-a` - Displays all active connections, including listening ports (already established ports).
+-   `-n` - Displays the numeric address and port numbers instead of resolving names and services.
+-   `-p` - Displays the PID (Process ID) and name of the program that is using the network connection.
+
+When used together, `netstat -anp` displays a list of all active network connections, including TCP and UDP connections, along with the process identifier and name of the program associated with each connection. This information can be useful for troubleshooting network issues, identifying the source of network traffic, and monitoring network activity on a Linux or Unix-based system
+
+> For getting ports `netwtat -npl` where l is for listening ports, p is to get program names, and n is for not getting thwe host resolved and getting numeric ip instead
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+# To display a particular network interface like eth0
+
+`ip address show eth0`
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+# To show a particular type of network interface
+
+`ip address show type bridge` which shows all the bridge networks present

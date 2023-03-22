@@ -62,3 +62,15 @@ Encoding n decoding using base64
 
 `alias k=kubectl`
 
+
+
+---
+
+<br/>
+<br/>
+
+---
+
+# For getting the path of a command
+
+`which commandName`
