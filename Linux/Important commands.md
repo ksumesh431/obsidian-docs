@@ -25,6 +25,9 @@ kill with sigstop signal sends the stop signal to the process so it is **Paused*
 
 <br/>
 <br/>
+
+
+
 # To give 400 to windows pem file
 
 If you prefer to do it from UI
@@ -37,3 +40,48 @@ If you prefer to do it from UI
 -   Give all permissions > ok > apply
 
 ## Wont work with wsl terminal 
+
+
+
+
+
+
+<br/>
+<br/>
+
+---
+---
+
+
+<br/>
+<br/>
+
+
+
+# To change to a specific user
+
+`su - username`
+
+`sudo su - ` for switching to root user
+
+The - starts a new login shell with new environment variables and aliases etc.
+
+
+
+<br/>
+<br/>
+
+---
+---
+
+
+<br/>
+<br/>
+
+
+# To run commands as another user
+
+`sudo -u username command`
+
+or to run commands as root user
+`sudo command`

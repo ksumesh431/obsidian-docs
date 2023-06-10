@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ca0067765dee38ee",
+        "id": "b71c6bbd0baa4f76",
         "type": "tabs",
         "children": [
           {
-            "id": "589699a8cb1a8ee3",
+            "id": "a1e3743a573d540e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Networking.md",
+                "file": "EKS/Cluster setup.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "53f830339c63c313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/terraform usecase.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,10 +58,10 @@
             }
           },
           {
-            "id": "18df47667b24d57b",
+            "id": "ae84601f6852331c",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/terraform usecase.md",
+                "file": "EKS/Cluster setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/terraform usecase.md",
+                "file": "EKS/Cluster setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/terraform usecase.md"
+                "file": "EKS/Cluster setup.md"
               }
             }
           },
           {
-            "id": "f5ba674fdf9a92a8",
+            "id": "eb69ecca70996426",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -155,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,51 +155,53 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "af4fd185d12308c6",
+  "active": "a1e3743a573d540e",
   "lastOpenFiles": [
-    "Kubernetes/Networking.md",
     "AWS/terraform usecase.md",
-    "Kubernetes/Security.md",
-    "Kubernetes/Other commands.md",
-    "Networking/Basics.md",
-    "Networking/Namespaces.md",
-    "Kubernetes/Images/Pasted image 20230320074417.png",
-    "Kubernetes/Images/Pasted image 20230320074401.png",
-    "Kubernetes/Images/Pasted image 20230320073905.png",
-    "Kubernetes/Images/Pasted image 20230320073823.png",
-    "Kubernetes/Images/Pasted image 20230320073442.png",
-    "Docker/Networking.md",
-    "Networking/DNS.md",
+    "EKS/Cluster setup.md",
+    "EKS",
+    "AWS/Untitled.md",
     "Kubernetes/Core Concepts.md",
-    "AWS/CloudWatch.md",
-    "AWS/Others.md",
-    "Kubernetes/Encryption at Rest.md",
-    "Kubernetes/Cluster Maintainence.md",
+    "Docker/Basics.md",
+    "AWS/ECS.md",
+    "Useful links.md",
+    "Networking/Basics.md",
     "Kubernetes/Application Lifecycle Management.md",
-    "Linux/Other commands.md",
-    "Kubernetes/Logging n Monitoring.md",
-    "Linux/Important commands.md",
+    "Kubernetes/Other commands.md",
+    "Kubernetes/Cluster Maintainence.md",
+    "to do.md",
+    "SCP.md",
+    "Kubernetes/pdfs/Networking/Ingress.pdf",
+    "Kubernetes/CKA Tips.md",
+    "Elasticsearch/Basics.md",
+    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
+    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m39s].png",
+    "Elasticsearch/Images",
+    "Kubernetes/EKS.md",
+    "Elasticsearch",
+    "Kubernetes/kubectx and kubens cli.md",
     "Linux/Run process as a service.md",
+    "Linux/Resizing root of ec2.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Linux/Normal Partitioning vs LVM.md",
+    "Linux/Important commands.md",
+    "Kubernetes/Scheduling.md",
+    "Kubernetes/Logging n Monitoring.md",
+    "Kubernetes/Networking.md",
+    "Terraform/cidrsubnet function.md",
+    "AWS/Images/Pasted image 20230420171528.png",
+    "Kubernetes/Images/Pasted image 20230416031451.png",
+    "Linux/Images/Pasted image 20230411203501.png",
+    "Linux/Images/Pasted image 20230411195602.png",
+    "Linux/Images/Pasted image 20230411192038.png",
+    "Kubernetes/Images/Pasted image 20230401022932.png",
+    "Kubernetes/Images/Pasted image 20230324092413.png",
+    "Kubernetes/Images/Pasted image 20230324091703.png",
     "Kubernetes/pdfs/Networking/Kubernetes-CKA-0800-Networking.pdf",
     "Kubernetes/Networking",
-    "Kubernetes/pdfs/Networking/Ingress.pdf",
     "Kubernetes/pdfs/Networking/Unconfirmed 608223.crdownload",
     "Kubernetes/pdfs/Networking/Unconfirmed 593206.crdownload",
     "Kubernetes/pdfs/Networking",
-    "Kubernetes/pdfs/New folder",
-    "Docker/Images/Pasted image 20230307085639.png",
-    "Docker/Images/Pasted image 20230307085545.png",
-    "Docker/Images/Pasted image 20230307085501.png",
-    "Networking/Images/Pasted image 20230307084356.png",
-    "Networking/Images/Pasted image 20230307084307.png",
-    "Working with Strings/Grep.md",
-    "Working with Strings/Regex.md",
-    "Docker/Basics.md",
-    "Networking/Images",
-    "Networking",
-    "Kubernetes/kubectx and kubens cli.md",
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/Storage.md",
-    "Miscellaneous/Public Key Infratructure.md"
+    "Kubernetes/pdfs/New folder"
   ]
 }

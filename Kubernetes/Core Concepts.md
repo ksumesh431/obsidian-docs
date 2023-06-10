@@ -185,6 +185,10 @@ To run pod using command line
 <br/>
 <br/>
 
+To execute commands inside a pod using exec
+`kubectl exec -it podname -- nslookup mysql.payroll > /root/CKA/nslookup.out`
+code after -- runs inside the pod
+
 ---
 
 ---
@@ -268,6 +272,8 @@ Exposes the service on each Node’s IP at a static port (the NodePort). A Clust
 ## ClusterIP
 
 Exposes the service on a cluster-internal IP. Choosing this value makes the service only reachable from within the cluster. This is the default ServiceType
+
+To get Cluster IP Range: ![](Images/Pasted%20image%2020230324092413.png)
 
 
 

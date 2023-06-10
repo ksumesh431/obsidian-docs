@@ -108,7 +108,12 @@
 
 # To get log of a particular container in a pod
 
-`kubectl logs podname -c containerName`
+`kubectl logs podname containerName`
+
+
+![](Images/Pasted%20image%2020230324091703.png)
+
+
 
 <br/>
 <br/>

@@ -106,6 +106,7 @@ Tho can use workaround for it by starting container with none network and manual
 
 # Path of CNI plugin configured for k8s cluster 
 (only if --network-plugin=cni)
+
 **/etc/cni/net.d/**
 
 
@@ -131,3 +132,63 @@ Tho can use workaround for it by starting container with none network and manual
 
 
 
+# To get ip address range of the node
+check eth0 ip address range
+
+<br/>
+
+# For getting the pod networking ip range
+`k logs weave-net-ltv9g weave -n kube-system | grep -i ipalloc-range`
+
+<br/>
+
+# For service networking ip addr range 
+`cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep cluster-ip-range`
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+# Prior to v1.12 
+kube-dns was used
+
+<br/>
+
+# In Newer versions of k8s 
+recommended dns server is CoreDNS
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+# Ingress

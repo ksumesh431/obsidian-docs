@@ -1,9 +1,9 @@
 1.  Create a new systemd service unit file in the directory /etc/systemd/system/ with a name of your choice, such as myservice.service.
-    
+
 2.  Inside the unit file, specify the service properties such as the user and group to run the service under, the working directory, and the command to start the service.
-    
+
 3.  Use the systemctl command to start, stop, and check the status of the service.
-    
+
 4.  To enable the service to automatically start at boot, use the systemctl enable command.
 
 
