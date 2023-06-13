@@ -1,1 +1,1 @@
-## Notes realted to Cloud, DevOps and various tech
+## Notes realted to Cloud , DevOps and various tech
