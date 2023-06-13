@@ -10,6 +10,6 @@ Django Dockerfile
 
 
 oh my posh for wsl bash
-eval "$(oh-my-posh prompt init bash --config catppuccin_frappe.omp.json)"
+eval "$(oh-my-posh prompt init bash --config themes/amro.omp.json)"
 
-### [catppuccin_frappe](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/catppuccin_frappe.omp.json "catppuccin_frappe")
+in wsl, must set the theme at a windows folder

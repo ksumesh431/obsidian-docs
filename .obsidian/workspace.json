@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EKS/Cluster setup.md",
-                "mode": "source",
+                "file": "Elasticsearch/Basics.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EKS/Cluster setup.md",
+                "file": "Elasticsearch/Basics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EKS/Cluster setup.md",
+                "file": "Elasticsearch/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EKS/Cluster setup.md"
+                "file": "Elasticsearch/Basics.md"
               }
             }
           },
@@ -157,27 +157,35 @@
   },
   "active": "a1e3743a573d540e",
   "lastOpenFiles": [
-    "AWS/terraform usecase.md",
+    "Elasticsearch/Installation (Docker).md",
+    "Elasticsearch/Basics.md",
+    "Useful links.md",
+    "Elasticsearch/Images/Pasted image 20230612224109.png",
+    "Elasticsearch/Images/Pasted image 20230612224016.png",
+    "Elasticsearch/Images/Pasted image 20230612223339.png",
+    "Kubernetes/Storage.md",
+    "Kubernetes/Scheduling.md",
+    "Kubernetes/Core Concepts.md",
     "EKS/Cluster setup.md",
+    "Kubernetes/EKS.md",
+    "Kubernetes/Application Lifecycle Management.md",
+    "EKS/Images/Pasted image 20230611031946.png",
+    "EKS/Images",
+    "AWS/terraform usecase.md",
     "EKS",
     "AWS/Untitled.md",
-    "Kubernetes/Core Concepts.md",
     "Docker/Basics.md",
     "AWS/ECS.md",
-    "Useful links.md",
     "Networking/Basics.md",
-    "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/Other commands.md",
     "Kubernetes/Cluster Maintainence.md",
     "to do.md",
     "SCP.md",
     "Kubernetes/pdfs/Networking/Ingress.pdf",
     "Kubernetes/CKA Tips.md",
-    "Elasticsearch/Basics.md",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m39s].png",
     "Elasticsearch/Images",
-    "Kubernetes/EKS.md",
     "Elasticsearch",
     "Kubernetes/kubectx and kubens cli.md",
     "Linux/Run process as a service.md",
@@ -185,23 +193,15 @@
     "Kubernetes/Encryption at Rest.md",
     "Linux/Normal Partitioning vs LVM.md",
     "Linux/Important commands.md",
-    "Kubernetes/Scheduling.md",
     "Kubernetes/Logging n Monitoring.md",
-    "Kubernetes/Networking.md",
-    "Terraform/cidrsubnet function.md",
     "AWS/Images/Pasted image 20230420171528.png",
     "Kubernetes/Images/Pasted image 20230416031451.png",
     "Linux/Images/Pasted image 20230411203501.png",
     "Linux/Images/Pasted image 20230411195602.png",
-    "Linux/Images/Pasted image 20230411192038.png",
-    "Kubernetes/Images/Pasted image 20230401022932.png",
-    "Kubernetes/Images/Pasted image 20230324092413.png",
-    "Kubernetes/Images/Pasted image 20230324091703.png",
     "Kubernetes/pdfs/Networking/Kubernetes-CKA-0800-Networking.pdf",
     "Kubernetes/Networking",
     "Kubernetes/pdfs/Networking/Unconfirmed 608223.crdownload",
     "Kubernetes/pdfs/Networking/Unconfirmed 593206.crdownload",
-    "Kubernetes/pdfs/Networking",
-    "Kubernetes/pdfs/New folder"
+    "Kubernetes/pdfs/Networking"
   ]
 }
