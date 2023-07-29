@@ -74,3 +74,15 @@ Encoding n decoding using base64
 # For getting the path of a command
 
 `which commandName`
+
+---
+
+<br/>
+<br/>
+
+---
+
+# Stress cpu
+`stress -c 1 -t 10`
+
+this stresses 1 cpu core for 10 secs

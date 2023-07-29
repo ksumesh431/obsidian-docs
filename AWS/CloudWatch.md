@@ -51,3 +51,15 @@ Standard (60s granuality) and High(1s and costs more)
 <br/>
 
 ![](Images/Pasted%20image%2020230203033948.png)
+
+
+
+
+
+---
+<br/>
+<br/>
+<br/>
+
+# Cloudwatch logs setup for ec2 apache2 web server demo
+https://youtu.be/mIVluHNNioE

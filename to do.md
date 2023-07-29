@@ -21,27 +21,9 @@ freecodecamp 11 projects
 https://youtu.be/jFfo23yIWac
 
 
+---
+
+Daily interview questions
+[DevOps Interview Helpers - YouTube](https://www.youtube.com/playlist?list=PLRmSE-IsokP0U5VUCCUOsYPQ4OV2wCMtT)
 
 
-
-wsl
-[(12) How to Install WSL(Windows Subsystem for Linux) On Separate Drive (Urdu/Hindi) - YouTube](https://www.youtube.com/watch?v=lBv9ZPxpchM)
-
-docker
-[(12) Moving Docker Desktop On WSL2 To Another Drive - YouTube](https://www.youtube.com/watch?v=AyEw7JsHt9I)
-
-,
-
-        "Ubuntu20.04LTS (WSL)": {
-
-            "path": "C:\\WINDOWS\\System32\\wsl.exe",
-
-            "args": [
-
-                "-d",
-
-                "Ubuntu20.04LTS"
-
-            ]
-
-        }
