@@ -183,7 +183,7 @@ PUT favorite_candy/_doc/1
 <br/>
 <br/>
 
-**PUT will overwrite an existing document if we use the same id**
+**PUT with `_doc` will overwrite an existing document if we use the same id**
 To prevent that, should use CREATE endpoint instead
 
 ### _create Endpoint
@@ -270,3 +270,23 @@ Example:
 ```
 DELETE favorite_candy/_doc/1
 ```
+
+
+
+---
+
+##  READ
+
+Syntax:
+
+```
+GET Name-of-the-Index/_doc/id-of-the-document-you-want-to-retrieve
+```
+
+Example:
+
+```
+GET favorite_candy/_doc/1
+```
+
+

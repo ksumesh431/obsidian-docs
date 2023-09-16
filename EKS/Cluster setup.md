@@ -146,3 +146,21 @@ Use putty
 
 - [https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html](https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html)
 - [https://docs.aws.amazon.com/eks/latest/userguide/create-service-account-iam-policy-and-role.html](https://docs.aws.amazon.com/eks/latest/userguide/create-service-account-iam-policy-and-role.html)
+
+
+
+
+# To get config
+`aws eks --region us-east-1 update-kubeconfig --name eksdemo1`
+
+
+
+
+---
+
+Delete Cluster  
+- We can delete cluster using `eksctl delete cluster`
+```
+# Delete Cluster
+eksctl delete cluster <clusterName>
+eksctl delete cluster eksdemo1

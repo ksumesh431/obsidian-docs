@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b71c6bbd0baa4f76",
+        "id": "0f84cae6af03727a",
         "type": "tabs",
         "children": [
           {
-            "id": "a1e3743a573d540e",
+            "id": "32ef5d5002ca9730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EKS/Cluster setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93e34f0dbc9a4aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Elasticsearch/Basics.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,23 +33,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af4fd185d12308c6",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "795eff0f9c3a33ee",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "get event",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,12 +54,23 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "db48807c47194c50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 400.5
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elasticsearch/Basics.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elasticsearch/Basics.md",
+                "file": "Kubernetes/Core Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elasticsearch/Basics.md"
+                "file": "Kubernetes/Core Concepts.md"
               }
             }
           },
           {
-            "id": "eb69ecca70996426",
+            "id": "6177f4ca12630e48",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -155,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,52 +156,56 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "93e34f0dbc9a4aac",
+  "active": "32ef5d5002ca9730",
   "lastOpenFiles": [
-    "Images/Pasted image 20230620221541.png",
-    "INV/Untitled.md",
-    "new-relic/setup with aws.md",
-    "Terraform/cidrsubnet function.md",
-    "EKS/Cluster setup.md",
-    "AWS/terraform usecase.md",
+    "Kubernetes/Application Lifecycle Management.md",
     "AWS/codepipeline cfn.md",
-    "Linux/User and group creation in linux.md",
-    "Linux/Other commands.md",
-    "Linux/Normal Partitioning vs LVM.md",
-    "Linux/Important commands.md",
-    "Elasticsearch/Basics.md",
+    "AWS/DMS.md",
+    "AWS/ECS.md",
+    "AWS/Images/Pasted image 20230910214034.png",
+    "Kubernetes/Other commands.md",
+    "Kubernetes/sample deployment.md",
+    "Kubernetes/Core Concepts.md",
+    "Docker/Basics.md",
+    "Helm/Images/Pasted image 20230829233520.png",
+    "Helm/publish own helm chart on github pages.md",
+    "Helm/Basics.md",
+    "Kubernetes/Networking.md",
+    "Kubernetes/CKA Tips.md",
+    "Obsidian Settings.md",
+    "README.md",
+    "Helm/Images",
+    "to do.md",
+    "Untitled 1.md",
+    "Terraform/splat expression.md",
+    "Helm",
+    "Kubernetes/Cluster Maintainence.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Kubernetes/kubectx and kubens cli.md",
+    "Kubernetes/Logging n Monitoring.md",
+    "Kubernetes/Scheduling.md",
+    "Kubernetes/Security.md",
+    "EKS/EBS.md",
+    "EKS/Cluster setup.md",
+    "Kubernetes/Storage.md",
+    "Elasticsearch/Untitled Diagram.svg",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Elasticsearch/Untitled.canvas",
+    "Images/Pasted image 20230620221541.png",
     "Images",
     "new-relic",
-    "to do.md",
-    "Useful links.md",
-    "AWS/CloudWatch.md",
     "INV",
-    "AWS/ECS.md",
-    "Elasticsearch/Installation (Docker).md",
     "Elasticsearch/Images/Pasted image 20230612224109.png",
     "Elasticsearch/Images/Pasted image 20230612224016.png",
     "Elasticsearch/Images/Pasted image 20230612223339.png",
-    "Kubernetes/Storage.md",
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/Core Concepts.md",
-    "Kubernetes/EKS.md",
-    "Kubernetes/Application Lifecycle Management.md",
     "EKS/Images/Pasted image 20230611031946.png",
     "EKS/Images",
     "EKS",
-    "Docker/Basics.md",
-    "Networking/Basics.md",
-    "Kubernetes/Other commands.md",
-    "Kubernetes/Cluster Maintainence.md",
     "Kubernetes/pdfs/Networking/Ingress.pdf",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m39s].png",
     "Elasticsearch/Images",
-    "Elasticsearch",
-    "AWS/Images/Pasted image 20230420171528.png",
-    "Kubernetes/Images/Pasted image 20230416031451.png",
-    "Linux/Images/Pasted image 20230411203501.png",
-    "Kubernetes/pdfs/Networking/Kubernetes-CKA-0800-Networking.pdf",
-    "Kubernetes/Networking"
+    "Elasticsearch"
   ]
 }

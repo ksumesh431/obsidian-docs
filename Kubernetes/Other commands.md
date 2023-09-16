@@ -157,3 +157,22 @@ Can start kube proxy server which will by default use the credentials in .kubeco
 
 ![](Images/Pasted%20image%2020230226233222.png)
 
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+
+
+
+# To get events of a pod or object
+`kubectl get event --field-selector involvedObject.name=myapp1-deployment` 
+#kubernetes #event
