@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Core Concepts.md"
+                "file": "Github/Using multiple ssh keys.md"
               }
             }
           },
@@ -136,6 +136,16 @@
             "state": {
               "type": "side-panel-control-view",
               "state": {}
+            }
+          },
+          {
+            "id": "c1e7e2e517a9d6bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -158,6 +168,31 @@
   },
   "active": "32ef5d5002ca9730",
   "lastOpenFiles": [
+    "Ansible/Authenticate to remote hosts.md",
+    "Ansible/Common commands.md",
+    "Miscellaneous/Public Key Infratructure.md",
+    "Ansible",
+    "Miscellaneous/oh-my-posh setup wsl.md",
+    "Useful links.md",
+    "SCP.md",
+    "README.md",
+    "Interview docs.md",
+    "Obsidian Settings.md",
+    "Github/Using multiple ssh keys.md",
+    "Untitled.md",
+    "new-relic/setup with aws.md",
+    "Github",
+    "Kubernetes/Core Concepts.md",
+    "Images/Pasted image 230620221541.png.md",
+    "Images",
+    "new-relic/Images/Pasted image 20230918040125.png",
+    "new-relic/Images/Pasted image 20230918040425.png",
+    "new-relic/Images/Pasted image 20230620221541.png",
+    "Images/Pasted image 20230620221541.png",
+    "new-relic/Images",
+    "INV/Untitled.md",
+    "to do.md",
+    "2023-02-23.md",
     "Kubernetes/Application Lifecycle Management.md",
     "AWS/codepipeline cfn.md",
     "AWS/DMS.md",
@@ -165,47 +200,22 @@
     "AWS/Images/Pasted image 20230910214034.png",
     "Kubernetes/Other commands.md",
     "Kubernetes/sample deployment.md",
-    "Kubernetes/Core Concepts.md",
     "Docker/Basics.md",
     "Helm/Images/Pasted image 20230829233520.png",
     "Helm/publish own helm chart on github pages.md",
     "Helm/Basics.md",
-    "Kubernetes/Networking.md",
-    "Kubernetes/CKA Tips.md",
-    "Obsidian Settings.md",
-    "README.md",
     "Helm/Images",
-    "to do.md",
-    "Untitled 1.md",
-    "Terraform/splat expression.md",
     "Helm",
-    "Kubernetes/Cluster Maintainence.md",
-    "Kubernetes/Encryption at Rest.md",
-    "Kubernetes/kubectx and kubens cli.md",
-    "Kubernetes/Logging n Monitoring.md",
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/Security.md",
-    "EKS/EBS.md",
-    "EKS/Cluster setup.md",
-    "Kubernetes/Storage.md",
     "Elasticsearch/Untitled Diagram.svg",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas",
-    "Images/Pasted image 20230620221541.png",
-    "Images",
     "new-relic",
     "INV",
     "Elasticsearch/Images/Pasted image 20230612224109.png",
     "Elasticsearch/Images/Pasted image 20230612224016.png",
     "Elasticsearch/Images/Pasted image 20230612223339.png",
-    "EKS/Images/Pasted image 20230611031946.png",
     "EKS/Images",
-    "EKS",
-    "Kubernetes/pdfs/Networking/Ingress.pdf",
-    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
-    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m39s].png",
-    "Elasticsearch/Images",
-    "Elasticsearch"
+    "EKS"
   ]
 }

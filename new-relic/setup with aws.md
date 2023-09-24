@@ -7,7 +7,9 @@ copy role arn
 arn:aws:iam::895884664845:role/NewRelicInfrastructure-Integrations
 
 select :"create with cfn"
-![](Images/Pasted%20image%2020230620221541.png)
+![](Images/Pasted%20image%2020230918040425.png)
+
+
 
 
 cfn
@@ -49,3 +51,4 @@ resource "newrelic_nrql_alert_condition" "cpuspikealert" {
 
 
 ```
+

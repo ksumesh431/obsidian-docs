@@ -8,13 +8,6 @@ Django Dockerfile
 <br/>
 <br/>
 
----
-
-oh my posh for wsl bash
-eval "$(oh-my-posh prompt init bash --config themes/amro.omp.json)"
-
-in wsl, must set the theme at a windows folder
-
 
 ---
 wsl
