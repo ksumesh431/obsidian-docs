@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0f84cae6af03727a",
+        "id": "ee342d4ba7797abe",
         "type": "tabs",
         "children": [
           {
-            "id": "32ef5d5002ca9730",
+            "id": "ebdd1fcc554ef8de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
-                "mode": "source",
+                "file": "Miscellaneous/Public Key Infratructure.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -38,8 +38,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "get event",
-                "matchingCase": true,
+                "query": "public key",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
+                "file": "Miscellaneous/Public Key Infratructure.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
+                "file": "Miscellaneous/Public Key Infratructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/Using multiple ssh keys.md"
+                "file": "Miscellaneous/Public Key Infratructure.md"
               }
             }
           },
@@ -166,8 +165,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "32ef5d5002ca9730",
+  "active": "ebdd1fcc554ef8de",
   "lastOpenFiles": [
+    "EKS/Cluster setup.md",
+    "Docker/Basics.md",
+    "new-relic/setup with aws.md",
+    "Elasticsearch/Basics.md",
+    "Github/Using multiple ssh keys.md",
+    "Github/PR.md",
+    "AWS/Lambda layer.md",
+    "Python/venv.md",
+    "Python",
     "Ansible/Authenticate to remote hosts.md",
     "Ansible/Common commands.md",
     "Miscellaneous/Public Key Infratructure.md",
@@ -178,9 +186,7 @@
     "README.md",
     "Interview docs.md",
     "Obsidian Settings.md",
-    "Github/Using multiple ssh keys.md",
     "Untitled.md",
-    "new-relic/setup with aws.md",
     "Github",
     "Kubernetes/Core Concepts.md",
     "Images/Pasted image 230620221541.png.md",
@@ -196,14 +202,8 @@
     "Kubernetes/Application Lifecycle Management.md",
     "AWS/codepipeline cfn.md",
     "AWS/DMS.md",
-    "AWS/ECS.md",
     "AWS/Images/Pasted image 20230910214034.png",
-    "Kubernetes/Other commands.md",
-    "Kubernetes/sample deployment.md",
-    "Docker/Basics.md",
     "Helm/Images/Pasted image 20230829233520.png",
-    "Helm/publish own helm chart on github pages.md",
-    "Helm/Basics.md",
     "Helm/Images",
     "Helm",
     "Elasticsearch/Untitled Diagram.svg",
@@ -215,7 +215,6 @@
     "Elasticsearch/Images/Pasted image 20230612224109.png",
     "Elasticsearch/Images/Pasted image 20230612224016.png",
     "Elasticsearch/Images/Pasted image 20230612223339.png",
-    "EKS/Images",
-    "EKS"
+    "EKS/Images"
   ]
 }
