@@ -16,7 +16,7 @@ In summary, the use of the splat expression in this context allows the merged ma
 
 
 
-``` example
+``` hcl
 locals {
 
   

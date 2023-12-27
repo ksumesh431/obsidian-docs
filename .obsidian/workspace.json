@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee342d4ba7797abe",
+        "id": "26dd71db3a13280e",
         "type": "tabs",
         "children": [
           {
-            "id": "ebdd1fcc554ef8de",
+            "id": "89c1fb0c25fe3e41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/Public Key Infratructure.md",
+                "file": "EKS/Cluster setup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "public key",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 312.5
   },
   "right": {
     "id": "1ec8c8d6d1595843",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Public Key Infratructure.md",
+                "file": "EKS/Cluster setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Miscellaneous/Public Key Infratructure.md",
+                "file": "EKS/Cluster setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Public Key Infratructure.md"
+                "file": "EKS/Cluster setup.md"
               }
             }
           },
@@ -143,7 +144,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -165,43 +168,46 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ebdd1fcc554ef8de",
+  "active": "89c1fb0c25fe3e41",
   "lastOpenFiles": [
-    "EKS/Cluster setup.md",
-    "Docker/Basics.md",
-    "new-relic/setup with aws.md",
-    "Elasticsearch/Basics.md",
-    "Github/Using multiple ssh keys.md",
-    "Github/PR.md",
-    "AWS/Lambda layer.md",
-    "Python/venv.md",
-    "Python",
-    "Ansible/Authenticate to remote hosts.md",
-    "Ansible/Common commands.md",
-    "Miscellaneous/Public Key Infratructure.md",
-    "Ansible",
-    "Miscellaneous/oh-my-posh setup wsl.md",
-    "Useful links.md",
-    "SCP.md",
-    "README.md",
-    "Interview docs.md",
-    "Obsidian Settings.md",
-    "Untitled.md",
-    "Github",
+    "Kubernetes/Other commands.md",
     "Kubernetes/Core Concepts.md",
-    "Images/Pasted image 230620221541.png.md",
+    "EKS/Users.md",
+    "EKS/Cluster setup.md",
+    "Kubernetes/Security.md",
+    "Kubernetes/Scheduling.md",
+    "Kubernetes/sample deployment.md",
+    "AWS/apache script for ec2 user data in ubuntu.md",
+    "Linux/Resizing root of ec2.md",
+    "Linux/Swap partition.md",
+    "Linux/Run process as a service.md",
+    "Linux/Important commands.md",
+    "Linux/Normal Partitioning vs LVM.md",
+    "Linux/Other commands.md",
+    "Miscellaneous/Public Key Infratructure.md",
+    "Miscellaneous/Modern Standby Windows Fix.md",
+    "Slack Notifications from AWS SNS.md",
+    "Terraform/splat expression.md",
+    "Terraform/cidrsubnet function.md",
+    "Miscellaneous/Images/Pasted image 20230213235353.png",
+    "Networking/Basics.md",
+    "Networking/Namespaces.md",
+    "SCP.md",
+    "Kubernetes/Networking.md",
+    "EKS/EBS.md",
+    "Github/PR.md",
+    "Github/Using multiple ssh keys.md",
+    "Golang",
+    "AWS/Images/Pasted image 20231105053322.png",
+    "Python",
+    "Ansible",
+    "Github",
     "Images",
     "new-relic/Images/Pasted image 20230918040125.png",
     "new-relic/Images/Pasted image 20230918040425.png",
     "new-relic/Images/Pasted image 20230620221541.png",
     "Images/Pasted image 20230620221541.png",
     "new-relic/Images",
-    "INV/Untitled.md",
-    "to do.md",
-    "2023-02-23.md",
-    "Kubernetes/Application Lifecycle Management.md",
-    "AWS/codepipeline cfn.md",
-    "AWS/DMS.md",
     "AWS/Images/Pasted image 20230910214034.png",
     "Helm/Images/Pasted image 20230829233520.png",
     "Helm/Images",
@@ -212,9 +218,6 @@
     "Elasticsearch/Untitled.canvas",
     "new-relic",
     "INV",
-    "Elasticsearch/Images/Pasted image 20230612224109.png",
-    "Elasticsearch/Images/Pasted image 20230612224016.png",
-    "Elasticsearch/Images/Pasted image 20230612223339.png",
-    "EKS/Images"
+    "Elasticsearch/Images/Pasted image 20230612224109.png"
   ]
 }

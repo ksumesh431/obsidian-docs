@@ -16,3 +16,11 @@ wsl
 docker
 [(12) Moving Docker Desktop On WSL2 To Another Drive - YouTube](https://www.youtube.com/watch?v=AyEw7JsHt9I)
 
+
+---
+
+GoLang
+
+basic syntax https://www.youtube.com/watch?v=Cn5vrUDYtyc
+
+freecodecamp 11 projects https://youtu.be/jFfo23yIWac 

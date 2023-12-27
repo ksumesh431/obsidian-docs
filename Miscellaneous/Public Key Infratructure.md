@@ -33,7 +33,7 @@ In this, the sender and reciever, both need to have the same key for encryption/
 ## To give ssh access to other users 
 
 - Make the user generate public and private key
-- ssh with the existing key and copy the public key the the authorized_keys . This Locks the server with the new public key too.
+- ssh with the existing key and copy the public key to the authorized_keys . This Locks the server with the new public key too.
 - Now the other user can ssh using his private key
 
 ![](Images/Pasted%20image%2020230213234230.png)

@@ -176,3 +176,61 @@ Can start kube proxy server which will by default use the credentials in .kubeco
 # To get events of a pod or object
 `kubectl get event --field-selector involvedObject.name=myapp1-deployment` 
 #kubernetes #event
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
+
+
+# Labels
+#labels #selectors #matchLabels 
+
+- **labels** are used to tag k8s resources with key value pairs
+- **Selectors** : In case of services, the labels mentioned under selectors are used to link the resource containing the same labels hence that resource can be mapped to the service
+- **matchLabels** : matchLabels is a property under selectors , in which the labels are defined to match the lebels of the resource defined under spec
+  Example: 
+  ``` yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-restapp
+  labels: 
+    app: backend-restapp
+    tier: backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend-restapp
+  template: 
+    metadata:
+      labels:
+        app: backend-restapp
+        tier: backend
+    spec:
+      containers:
+        - name: backend-restapp
+          image: stacksimplify/kube-helloworld:1.0.0
+          ports:
+            - containerPort: 8080
+
+  ```
+
+
+
+
+<br/>
+<br/>
+
+---
+
+---
+<br/>
+<br/>
