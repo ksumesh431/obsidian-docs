@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "26dd71db3a13280e",
+        "id": "b2ecf4a65a3128db",
         "type": "tabs",
         "children": [
           {
-            "id": "89c1fb0c25fe3e41",
+            "id": "f7efe705cd3d4d1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "EKS/Cluster setup.md",
-                "mode": "preview",
-                "source": false
+                "file": "Github/git_revert_cherry-pick_conflicts.pdf"
               }
             }
           }
@@ -38,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "deploy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EKS/Cluster setup.md",
+                "file": "Github/git_revert_cherry-pick_conflicts.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EKS/Cluster setup.md",
+                "file": "Github/git_revert_cherry-pick_conflicts.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EKS/Cluster setup.md"
+                "file": "Github/git_revert_cherry-pick_conflicts.pdf"
               }
             }
           },
@@ -155,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,35 +166,37 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "89c1fb0c25fe3e41",
+  "active": "db48807c47194c50",
   "lastOpenFiles": [
-    "Kubernetes/Other commands.md",
-    "Kubernetes/Core Concepts.md",
-    "EKS/Users.md",
+    "AWS/ECS.md",
+    "Github/git_revert_cherry-pick_conflicts.pdf",
+    "Github/Untitled.md",
+    "AWS/Images/Pasted image 20240205223325.png",
+    "Python/venv.md",
+    "django/Migrations.md",
+    "django/apps.md",
+    "django/Basic server setup.md",
+    "django/users.md",
+    "django/Templates.md",
+    "django/models.md",
+    "django/Basics.md",
+    "AWS/Lambda in cloudformation.md",
+    "AWS/assumed role setup.md",
     "EKS/Cluster setup.md",
-    "Kubernetes/Security.md",
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/sample deployment.md",
-    "AWS/apache script for ec2 user data in ubuntu.md",
-    "Linux/Resizing root of ec2.md",
-    "Linux/Swap partition.md",
-    "Linux/Run process as a service.md",
-    "Linux/Important commands.md",
-    "Linux/Normal Partitioning vs LVM.md",
-    "Linux/Other commands.md",
-    "Miscellaneous/Public Key Infratructure.md",
-    "Miscellaneous/Modern Standby Windows Fix.md",
-    "Slack Notifications from AWS SNS.md",
-    "Terraform/splat expression.md",
-    "Terraform/cidrsubnet function.md",
-    "Miscellaneous/Images/Pasted image 20230213235353.png",
-    "Networking/Basics.md",
-    "Networking/Namespaces.md",
+    "Kubernetes/Cluster Maintainence.md",
+    "Networking/DNS.md",
+    "Interview docs.md",
+    "Obsidian Settings.md",
+    "README.md",
+    "sample deployment.md",
+    "Useful links.md",
     "SCP.md",
-    "Kubernetes/Networking.md",
-    "EKS/EBS.md",
-    "Github/PR.md",
-    "Github/Using multiple ssh keys.md",
+    "Slack Notifications from AWS SNS.md",
+    "django",
+    "Kubernetes/Storage.md",
+    "Kubernetes/Security.md",
+    "Linux/Important commands.md",
+    "Miscellaneous/Images/Pasted image 20230213235353.png",
     "Golang",
     "AWS/Images/Pasted image 20231105053322.png",
     "Python",
@@ -215,9 +215,6 @@
     "Elasticsearch/Untitled Diagram.svg",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Elasticsearch/Untitled.canvas",
-    "new-relic",
-    "INV",
-    "Elasticsearch/Images/Pasted image 20230612224109.png"
+    "Elasticsearch/Untitled.canvas"
   ]
 }

@@ -137,7 +137,7 @@ spec:
 
 1.  Retain: When a PVC is released or deleted, the underlying storage resource is not deleted and remains available for use by other PVCs. This is useful when you want to manually manage the lifecycle of your storage resources and want to keep data available even after a PVC has been deleted.
     
-2.  Recycle: When a PVC is released or deleted, the underlying storage resource is marked for reuse. The data stored on the volume is not deleted immediately, but rather is marked for deletion. The data is only deleted after a subsequent PVC is created and bound to the volume and the new PVC explicitly requests the deletion of the previous data.
+2.  Recycle: When a PVC is released or deleted, the underlying storage resource is marked for reuse. The data stored on the volume is not deleted immediately, but rather is marked for deletion. The data is only deleted after a subsequent PVC is created and bound to the volume **and the new PVC explicitly requests the deletion** of the previous data.
     
 3.  Delete: When a PVC is released or deleted, the underlying storage resource is deleted immediately and the data is lost. This reclaim policy is useful when you want to automatically delete storage resources that are no longer in use.
 

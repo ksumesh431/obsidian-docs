@@ -14,6 +14,31 @@
 
 
 
+# Least privilege policy for eksctl
+``` json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:*",
+                "ec2:*",
+                "autoscaling:Describe*",
+                "autoscaling:UpdateAutoScalingGroup",
+                "eks:*",
+                "iam:*",
+                "ssm:Describe*",
+                "ssm:Get*",
+                "ssm:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+
 ## Step-01: Create EKS Cluster using eksctl
 
 - It will take 15 to 20 minutes to create the Cluster Control Plane
