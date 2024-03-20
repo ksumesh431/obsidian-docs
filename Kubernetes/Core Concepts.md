@@ -6,8 +6,7 @@
 
 
 
-Name: Tarun
-Class: Devops
+
 
 ![](Images/Pasted%20image%2020230127013004.png)
 <br/>
