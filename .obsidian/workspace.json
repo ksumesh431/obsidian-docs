@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a18e29c548596039",
+        "id": "037169a4345dddb3",
         "type": "tabs",
         "children": [
           {
-            "id": "365dee634ba906ce",
+            "id": "5bf43b2c85f0473c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/devops_questions overall.md",
+                "file": "pnpm/basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a8561e2917990a0",
+            "id": "437fa307407f4271",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Golang/Basics.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Golang/Basics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Golang/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Storage.md"
+                "file": "Golang/Basics.md"
               }
             }
           },
@@ -181,8 +181,18 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9a8561e2917990a0",
+  "active": "437fa307407f4271",
   "lastOpenFiles": [
+    "Golang/initializing project.md",
+    "Golang/Basics.md",
+    "pnpm/basics.md",
+    "pnpm",
+    "Golang/Images/Pasted image 20240330222730.png",
+    "Golang/Images",
+    "Interview/devops_questions overall.md",
+    "Linux/sudoers.md",
+    "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
+    "Kubernetes/Storage.md",
     "Kubernetes/Security.md",
     "Kubernetes/Scheduling.md",
     "Kubernetes/Networking.md",
@@ -194,22 +204,15 @@
     "Kubernetes/CKA Tips.md",
     "Kubernetes/Application Lifecycle Management.md",
     "Docker/Basics.md",
-    "Linux/sudoers.md",
     "Linux/User and group creation in linux.md",
     "Linux/Important commands.md",
     "Interview/K8s.md",
-    "Interview/devops_questions overall.md",
     "Interview/Interview docs.md",
     "Interview/Terraform.md",
-    "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
     "Interview/Docker questions.md",
     "Interview",
     "Python/dunder methods.md",
     "Python/venv.md",
-    "Golang/Basics.md",
-    "2024-02-25.md",
-    "AWS/terraform usecase.md",
-    "Miscellaneous/wslconfig.md",
     "AWS/Serverless/Images/Pasted image 20240224203846.png",
     "AWS/Serverless/Images",
     "Python/Images/Pasted image 20240223233515.png",
@@ -222,13 +225,10 @@
     "Miscellaneous/Images/Pasted image 20230213235353.png",
     "Golang",
     "AWS/Images/Pasted image 20231105053322.png",
-    "Python",
-    "Ansible",
     "new-relic/Images/Pasted image 20230918040125.png",
     "new-relic/Images/Pasted image 20230918040425.png",
     "new-relic/Images/Pasted image 20230620221541.png",
     "Images/Pasted image 20230620221541.png",
-    "AWS/Images/Pasted image 20230910214034.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas"
