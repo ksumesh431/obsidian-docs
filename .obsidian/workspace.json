@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "037169a4345dddb3",
+        "id": "9602c2b98811fdf8",
         "type": "tabs",
         "children": [
           {
-            "id": "5bf43b2c85f0473c",
+            "id": "c7d39691a9a60c05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pnpm/basics.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "437fa307407f4271",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Golang/Basics.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang/Basics.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang/Basics.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang/Basics.md"
+                "file": "Elasticsearch/Log configurations for opensearch.md"
               }
             }
           },
@@ -181,15 +168,23 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "437fa307407f4271",
+  "active": "c7d39691a9a60c05",
   "lastOpenFiles": [
-    "Golang/initializing project.md",
+    "Elasticsearch/Log configurations for opensearch.md",
+    "Untitled",
+    "Interview/devops_questions overall.md",
+    "Slack Notifications from AWS SNS.md",
+    "Interview/Docker questions.md",
+    "Interview/Interview docs.md",
+    "Helm/Basics.md",
+    "Elasticsearch/Basics.md",
+    "Miscellaneous/pointers.md",
     "Golang/Basics.md",
+    "Golang/initializing project.md",
     "pnpm/basics.md",
     "pnpm",
     "Golang/Images/Pasted image 20240330222730.png",
     "Golang/Images",
-    "Interview/devops_questions overall.md",
     "Linux/sudoers.md",
     "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
     "Kubernetes/Storage.md",
@@ -205,14 +200,7 @@
     "Kubernetes/Application Lifecycle Management.md",
     "Docker/Basics.md",
     "Linux/User and group creation in linux.md",
-    "Linux/Important commands.md",
-    "Interview/K8s.md",
-    "Interview/Interview docs.md",
-    "Interview/Terraform.md",
-    "Interview/Docker questions.md",
     "Interview",
-    "Python/dunder methods.md",
-    "Python/venv.md",
     "AWS/Serverless/Images/Pasted image 20240224203846.png",
     "AWS/Serverless/Images",
     "Python/Images/Pasted image 20240223233515.png",
@@ -223,7 +211,6 @@
     "AWS/Images/Pasted image 20240205223325.png",
     "django",
     "Miscellaneous/Images/Pasted image 20230213235353.png",
-    "Golang",
     "AWS/Images/Pasted image 20231105053322.png",
     "new-relic/Images/Pasted image 20230918040125.png",
     "new-relic/Images/Pasted image 20230918040425.png",

@@ -81,3 +81,17 @@ Using tags/ versions practical
 
 
 Devops interview questions
+
+
+---
+
+tagging all resources with relevant tags
+creating everything with terraform
+creating ansible user for every account
+
+---
+
+Strength:
+can learn everything i am given
+very quick learner
+very fond of open source software
