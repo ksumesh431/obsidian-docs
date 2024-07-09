@@ -267,6 +267,7 @@ sudo fluent-gem install fluent-plugin-concat
 sudo fluent-gem install fluent-plugin-opensearch
 
 ### Must ensure that the `_fluentd` user can access the log path defined in config
+`sudo usermod -a -G adm _fluentd`
 
 
 ### Add config (/etc/fluent/fluentd.conf)
@@ -323,9 +324,12 @@ sudo fluent-gem install fluent-plugin-opensearch
 #### More example configs
 ``` config
 
+
+# nginxaccess_json
 <source>
   @type tail
   path /var/log/nginx/*.access.json*
+  path_key log_path
   pos_file /var/log/fluent/nginx_access_json.pos
   tag nginx.access.json
   <parse>
@@ -336,11 +340,13 @@ sudo fluent-gem install fluent-plugin-opensearch
 
 <filter nginx.access.json>
   @type record_transformer
+  enable_ruby true
   <record>
-    game stairway
-    environment dev
-    application stairway-app
-    document_type nginxaccess_json
+    message ${record.to_json}
+    fields {"indexname": "nginx-access-json-*", "document_type": "nginxaccess_json", "game": "stairway", "application": "stairway-app", "environment": "dev"}
+    agent {"type": "fluentd", "hostname": "${hostname}", "version": "#{Fluent::VERSION}"}
+    host {"name": "${hostname}"}
+    input {"type": "tail"}
   </record>
 </filter>
 
@@ -352,16 +358,20 @@ sudo fluent-gem install fluent-plugin-opensearch
   include_tag_key true
   type_name _doc
   logstash_format true
-  logstash_prefix fluentd-nginx-access-json-
-  logstash_dateformat %Y%m%d
+  logstash_prefix nginx-access-json
+  logstash_dateformat %Y.%m.%d
   <buffer>
     flush_interval 5s
   </buffer>
 </match>
 
+##################################################################################
+
+# nginxerror
 <source>
   @type tail
   path /var/log/nginx/error.log*
+  path_key log_path
   pos_file /var/log/fluent/nginx_error_log.pos
   tag nginx.error
   <parse>
@@ -371,12 +381,25 @@ sudo fluent-gem install fluent-plugin-opensearch
 </source>
 
 <filter nginx.error>
+  @type parser
+  key_name message
+  <parse>
+    @type regexp
+    expression /^(?<time>\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2}) \[(?<severity>\w+)\] (?<pid>\d+)\#(?<tid>\d+): \*(?<connection_id>\d+) (?<errormessage>.*)/
+    time_key time
+    time_format %Y/%m/%d %H:%M:%S
+  </parse>
+</filter>
+
+<filter nginx.error>
   @type record_transformer
+  enable_ruby true
   <record>
-    game stairway
-    environment dev
-    application stairway-app
-    document_type nginxerror
+    "@timestamp" ${time.strftime('%Y-%m-%dT%H:%M:%S.%L%z')}
+    fields {"game": "stairway", "indexname": "nginxerror", "document_type": "nginxerror", "environment": "dev", "application": "stairway-app"}
+    agent {"id": "#{SecureRandom.uuid}", "version": "#{Fluent::VERSION}", "name": "${hostname}", "ephemeral_id": "#{SecureRandom.uuid}", "type": "fluentd", "hostname": "${hostname}"}
+    input {"type": "filestream"}
+    host {"name": "${hostname}"}
   </record>
 </filter>
 
@@ -388,13 +411,181 @@ sudo fluent-gem install fluent-plugin-opensearch
   include_tag_key true
   type_name _doc
   logstash_format true
-  logstash_prefix fluentd-nginx-error-
-  logstash_dateformat %Y%m%d
+  logstash_prefix nginxerror
+  logstash_dateformat %Y.%m.%d
   <buffer>
     flush_interval 5s
   </buffer>
 </match>
 
+##################################################################################
+
+# # testing
+
+# <source>
+#   @type tail
+#   path /var/log/nginx/*.access.json*
+#   pos_file /var/log/fluent/test_logs.pos
+#   tag testing.index
+#   <parse>
+#     @type json
+#   </parse>
+#   exclude_path ["/var/log/nginx/*.gz"]
+# </source>
+
+# <filter testing.index>
+#   @type record_transformer
+#   enable_ruby true
+#   <record>
+#     message ${record.to_json}
+#     fields {"indexname": "testing-format-index-*", "document_type": "nginxaccess_json", "game": "stairway", "application": "stairway-app", "environment": "dev"}
+#     agent {"type": "fluentd", "hostname": "${hostname}", "version": "#{Fluent::VERSION}"}
+#     host {"name": "${hostname}"}
+#     input {"type": "tail"}
+#     log {"file": {"path": "/var/log/nginx/access.json"}}
+#   </record>
+# </filter>
+
+# <match testing.index>
+#   @type opensearch
+#   host vpc-opensearch-dev-omtcstmej7zun7nl5qxqt5hnk4.us-east-1.es.amazonaws.com
+#   port 443
+#   scheme https
+#   include_tag_key true
+#   type_name _doc
+#   logstash_format true
+#   logstash_prefix testing-format-index
+#   logstash_dateformat %Y.%m.%d
+#   <buffer>
+#     flush_interval 5s
+#   </buffer>
+# </match>
+
+
+##################################################################################
+
+# kern.log and syslog
+
+# Kernel logs
+<source>
+  @type tail
+  path /var/log/kern.log
+  pos_file /var/log/fluent/kern.log.pos
+  path_key log_path
+  tag kern.log
+  <parse>
+    @type none
+  </parse>
+</source>
+
+# Syslog
+<source>
+  @type tail
+  path /var/log/syslog
+  pos_file /var/log/fluent/syslog.pos
+  path_key log_path
+  tag syslog
+  <parse>
+    @type none
+  </parse>
+</source>
+
+<filter kern.log>
+  @type record_transformer
+  enable_ruby true
+  <record>
+    message ${record["message"]}
+    fields {"indexname": "syslog", "document_type": "kern.log", "game": "stairway", "application": "stairway-app", "environment": "dev"}
+    agent {"type": "fluentd", "hostname": "${hostname}", "version": "#{Fluent::VERSION}"}
+    host {"name": "${hostname}"}
+    input {"type": "filestream"}
+  </record>
+</filter>
+
+<filter syslog>
+  @type record_transformer
+  enable_ruby true
+  <record>
+    message ${record["message"]}
+    fields {"indexname": "syslog", "document_type": "syslog", "game": "stairway", "application": "stairway-app", "environment": "dev"}
+    agent {"type": "fluentd", "hostname": "${hostname}", "version": "#{Fluent::VERSION}"}
+    host {"name": "${hostname}"}
+    input {"type": "filestream"}
+  </record>
+</filter>
+
+<match kern.log>
+  @type opensearch
+  host vpc-opensearch-dev-omtcstmej7zun7nl5qxqt5hnk4.us-east-1.es.amazonaws.com
+  port 443
+  scheme https
+  include_tag_key true
+  type_name _doc
+  logstash_format true
+  logstash_prefix syslog
+  logstash_dateformat %Y.%m.%d
+  <buffer>
+    flush_interval 5s
+  </buffer>
+</match>
+
+<match syslog>
+  @type opensearch
+  host vpc-opensearch-dev-omtcstmej7zun7nl5qxqt5hnk4.us-east-1.es.amazonaws.com
+  port 443
+  scheme https
+  include_tag_key true
+  type_name _doc
+  logstash_format true
+  logstash_prefix syslog
+  logstash_dateformat %Y.%m.%d
+  <buffer>
+    flush_interval 5s
+  </buffer>
+</match>
+
+
+##################################################################################
+
+# logstash.json logs
+<source>
+  @type tail
+  path /srv/hp-dev/shared/log/logstash.json.*
+  path_key log_path
+  pos_file /var/log/fluent/hp-dev_logstash.pos
+  tag hp-dev_logstash.json
+  <parse>
+    @type json
+  </parse>
+  exclude_path ["/srv/hp-dev/shared/log/logstash.json.*.gz"]
+</source>
+
+<filter hp-dev_logstash.json>
+  @type record_transformer
+  enable_ruby true
+  <record>
+    message ${record["message"]}
+    fields {"indexname": "tapservice", "document_type": "log", "game": "stairway", "application": "stairway-app", "environment": "dev"}
+    agent {"type": "fluentd", "hostname": "${hostname}", "version": "#{Fluent::VERSION}"}
+    host {"name": "${hostname}"}
+    input {"type": "filestream"}
+  </record>
+</filter>
+
+<match hp-dev_logstash.json>
+  @type opensearch
+  host vpc-opensearch-dev-omtcstmej7zun7nl5qxqt5hnk4.us-east-1.es.amazonaws.com
+  port 443
+  scheme https
+  include_tag_key true
+  type_name _doc
+  logstash_format true
+  logstash_prefix tapservice
+  logstash_dateformat %Y.%m.%d
+  <buffer>
+    flush_interval 5s
+  </buffer>
+</match>
 ```
 
 ### `systemctl restart fluentd`

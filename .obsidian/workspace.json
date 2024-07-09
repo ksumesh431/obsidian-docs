@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9602c2b98811fdf8",
+        "id": "a2f1d84ad952bed0",
         "type": "tabs",
         "children": [
           {
-            "id": "c7d39691a9a60c05",
+            "id": "3fc322a454cdac2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Interview/devops_questions overall.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Interview/devops_questions overall.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Interview/devops_questions overall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md"
+                "file": "Interview/devops_questions overall.md"
               }
             }
           },
@@ -168,9 +168,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c7d39691a9a60c05",
+  "active": "3fc322a454cdac2e",
   "lastOpenFiles": [
     "Elasticsearch/Log configurations for opensearch.md",
+    "Miscellaneous/pointers.md",
     "Untitled",
     "Interview/devops_questions overall.md",
     "Slack Notifications from AWS SNS.md",
@@ -178,7 +179,6 @@
     "Interview/Interview docs.md",
     "Helm/Basics.md",
     "Elasticsearch/Basics.md",
-    "Miscellaneous/pointers.md",
     "Golang/Basics.md",
     "Golang/initializing project.md",
     "pnpm/basics.md",
