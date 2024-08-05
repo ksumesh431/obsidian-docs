@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/devops_questions overall.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DISPLAY",
+                "query": "venv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/devops_questions overall.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/devops_questions overall.md",
+                "file": "Elasticsearch/Log configurations for opensearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/devops_questions overall.md"
+                "file": "Elasticsearch/Log configurations for opensearch.md"
               }
             }
           },
@@ -170,10 +170,13 @@
   },
   "active": "3fc322a454cdac2e",
   "lastOpenFiles": [
+    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
+    "Python/venv.md",
+    "AWS/CDK-py/basic setup.md",
     "Elasticsearch/Log configurations for opensearch.md",
+    "Interview/devops_questions overall.md",
     "Miscellaneous/pointers.md",
     "Untitled",
-    "Interview/devops_questions overall.md",
     "Slack Notifications from AWS SNS.md",
     "Interview/Docker questions.md",
     "Interview/Interview docs.md",
@@ -197,9 +200,6 @@
     "Kubernetes/Core Concepts.md",
     "Kubernetes/Cluster Maintainence.md",
     "Kubernetes/CKA Tips.md",
-    "Kubernetes/Application Lifecycle Management.md",
-    "Docker/Basics.md",
-    "Linux/User and group creation in linux.md",
     "Interview",
     "AWS/Serverless/Images/Pasted image 20240224203846.png",
     "AWS/Serverless/Images",

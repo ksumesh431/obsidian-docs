@@ -261,6 +261,8 @@ Install fluentd service which can read logs and send directly to opensearch
 ### Install fluentd
 `curl -fsSL https://toolbelt.treasuredata.com/sh/install-ubuntu-focal-fluent-package5-lts.sh | sh` (Ubuntu focal)
 
+`curl -fsSL https://toolbelt.treasuredata.com/sh/install-ubuntu-jammy-fluent-package5-lts.sh | sh` (Ubuntu jammy)
+
 ### Install opensearch and concat plugins
 
 sudo fluent-gem install fluent-plugin-concat
