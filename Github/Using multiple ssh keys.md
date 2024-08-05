@@ -7,6 +7,9 @@ If you have multiple SSH key pairs and you want to create entries for all of the
   ``` shell 
 ssh-keygen -t rsa -b 4096 -C "email1@example.com" -f ~/.ssh/custom_key1
 ssh-keygen -t rsa -b 4096 -C "email2@example.com" -f ~/.ssh/custom_key2
+
+or
+ssh-keygen -t ed25519 -C "sumeshpanda.k@gmail.com" -f ~/.ssh/github_ubuntu
 # Generate additional keys as needed
 
 
@@ -34,6 +37,12 @@ Host github.com-yourusername
   HostName github.com
   User git
   IdentityFile ~/.ssh/custom_key2
+
+# Custom SSH key for GitHub
+Host github.com-skp_git
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github_ubuntu
 
 ```
     

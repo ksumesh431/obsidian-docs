@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md",
+                "file": "Github/Using multiple ssh keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elasticsearch/Log configurations for opensearch.md"
+                "file": "Github/Using multiple ssh keys.md"
               }
             }
           },
@@ -170,10 +170,12 @@
   },
   "active": "3fc322a454cdac2e",
   "lastOpenFiles": [
+    "Github/PR.md",
+    "Github/git_revert_cherry-pick_conflicts.pdf",
+    "Elasticsearch/Log configurations for opensearch.md",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
     "Python/venv.md",
     "AWS/CDK-py/basic setup.md",
-    "Elasticsearch/Log configurations for opensearch.md",
     "Interview/devops_questions overall.md",
     "Miscellaneous/pointers.md",
     "Untitled",
@@ -199,14 +201,12 @@
     "Kubernetes/Encryption at Rest.md",
     "Kubernetes/Core Concepts.md",
     "Kubernetes/Cluster Maintainence.md",
-    "Kubernetes/CKA Tips.md",
     "Interview",
     "AWS/Serverless/Images/Pasted image 20240224203846.png",
     "AWS/Serverless/Images",
     "Python/Images/Pasted image 20240223233515.png",
     "Python/Images",
     "AWS/CDK-py",
-    "Github/git_revert_cherry-pick_conflicts.pdf",
     "AWS/Serverless",
     "AWS/Images/Pasted image 20240205223325.png",
     "django",
@@ -215,7 +215,6 @@
     "new-relic/Images/Pasted image 20230918040125.png",
     "new-relic/Images/Pasted image 20230918040425.png",
     "new-relic/Images/Pasted image 20230620221541.png",
-    "Images/Pasted image 20230620221541.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas"
