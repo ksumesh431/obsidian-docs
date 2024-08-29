@@ -86,3 +86,14 @@ Encoding n decoding using base64
 `stress -c 1 -t 10`
 
 this stresses 1 cpu core for 10 secs
+
+---
+
+<br/>
+<br/>
+
+---
+
+
+# keygen
+`ssh-keygen -t ed25519 -a 100 -f ~/.ssh/id_ed25519 -C "your_email@example.com"`

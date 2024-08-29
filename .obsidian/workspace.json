@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a2f1d84ad952bed0",
+        "id": "acdda9cfb102ac3a",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc322a454cdac2e",
+            "id": "81c8cf4ce73585cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
-                "mode": "source",
-                "source": false
+                "file": "Postgres/basic setup.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
+                "file": "Postgres/basic setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github/Using multiple ssh keys.md",
+                "file": "Postgres/basic setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github/Using multiple ssh keys.md"
+                "file": "Postgres/basic setup.md"
               }
             }
           },
@@ -168,17 +168,27 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "3fc322a454cdac2e",
+  "active": "db48807c47194c50",
   "lastOpenFiles": [
+    "Python/venv.md",
+    "AWS/CDK-py/basic setup.md",
+    "Postgres/basic setup.md",
+    "Linux/Other commands.md",
+    "Postgres",
+    "Linux/Resizing root of ec2.md",
+    "Github/Using multiple ssh keys.md",
+    "Linux/Boot process.md",
+    "Miscellaneous/openvpn docker setup.md",
+    "Docker/docker compose cheatsheet.md",
+    "Docker/Basics.md",
+    "Docker/Networking.md",
+    "Useful links.md",
     "Github/PR.md",
     "Github/git_revert_cherry-pick_conflicts.pdf",
     "Elasticsearch/Log configurations for opensearch.md",
     "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
-    "Python/venv.md",
-    "AWS/CDK-py/basic setup.md",
     "Interview/devops_questions overall.md",
     "Miscellaneous/pointers.md",
-    "Untitled",
     "Slack Notifications from AWS SNS.md",
     "Interview/Docker questions.md",
     "Interview/Interview docs.md",
@@ -192,15 +202,6 @@
     "Golang/Images",
     "Linux/sudoers.md",
     "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
-    "Kubernetes/Storage.md",
-    "Kubernetes/Security.md",
-    "Kubernetes/Scheduling.md",
-    "Kubernetes/Networking.md",
-    "Kubernetes/Logging n Monitoring.md",
-    "Kubernetes/kubectx and kubens cli.md",
-    "Kubernetes/Encryption at Rest.md",
-    "Kubernetes/Core Concepts.md",
-    "Kubernetes/Cluster Maintainence.md",
     "Interview",
     "AWS/Serverless/Images/Pasted image 20240224203846.png",
     "AWS/Serverless/Images",
