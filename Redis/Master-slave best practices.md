@@ -10,9 +10,6 @@
     
     - **Command:**
         
-        bash
-        
-        Copy code
         
         `redis-cli -h <node_host> -p <node_port> INFO replication`
         
@@ -21,25 +18,19 @@
         - The output will indicate the role of the node (`role:master` or `role:slave`).
     - **Example:**
         
-        bash
-        
-        Copy code
+
         
         `redis-cli -h amqp-publisher3.euhpc.arm.com -p 6379 INFO replication`
         
     - **Expected Output:**
         
-        makefile
-        
-        Copy code
+
         
         `role:master connected_slaves:1 slave0:ip=amqp-publisher4.euhpc.arm.com,port=6379,state=online,offset=123456,lag=0`
         
         or
         
-        makefile
-        
-        Copy code
+
         
         `role:slave master_host:amqp-publisher3.euhpc.arm.com master_port:6379 master_link_status:up`
         
@@ -54,9 +45,7 @@
         - Look into the codebase or configuration files to confirm the routing logic.
     - **Example in Code (Pseudo-code):**
         
-        python
-        
-        Copy code
+
         
         `# For writes redis_write_client = Redis(host='leader_host', port=6379)  # For reads redis_read_clients = [     Redis(host='follower1_host', port=6379),     Redis(host='follower2_host', port=6379), ]`
         
@@ -68,17 +57,13 @@
         - Tools like `redis-cli monitor`, Redis Slow Log, or external monitoring solutions can help observe real-time operations.
     - **Commands:**
         
-        bash
-        
-        Copy code
+
         
         `redis-cli -h <leader_host> -p 6379 monitor`
         
         - Observe that write commands (`SET`, `DEL`, etc.) are hitting the leader.
         
-        bash
-        
-        Copy code
+
         
         `redis-cli -h <follower_host> -p 6379 monitor`
         
@@ -103,9 +88,7 @@
     
     - **Command:**
         
-        bash
-        
-        Copy code
+
         
         `redis-cli -h <follower_host> -p 6379 INFO replication`
         
@@ -113,9 +96,7 @@
         - Look for the `master_last_io_seconds_ago` and `lag` metrics.
     - **Expected Output:**
         
-        makefile
-        
-        Copy code
+
         
         `master_last_io_seconds_ago:0 master_sync_in_progress:0`
         
@@ -134,9 +115,7 @@
         
         - Use tools like `ping` and `traceroute` between leader and follower nodes.
         
-        bash
-        
-        Copy code
+
         
         `ping <follower_host> traceroute <follower_host>`
         
@@ -156,9 +135,7 @@
         - `repl-diskless-sync`: Can improve synchronization speed.
     - **Command to View Config:**
         
-        bash
-        
-        Copy code
+
         
         `redis-cli -h <follower_host> -p 6379 CONFIG GET repl-*`
         
@@ -196,17 +173,12 @@
         - Document all current Redis nodes in your infrastructure.
     - **Command:**
         
-        bash
-        
-        Copy code
+
         
         `# On leader redis-cli -h <leader_host> -p 6379 INFO replication`
         
     - **Expected Output:**
-        
-        makefile
-        
-        Copy code
+
         
         `connected_slaves:2 slave0:ip=<follower1_ip>,port=6379,state=online,offset=123456,lag=0 slave1:ip=<follower2_ip>,port=6379,state=online,offset=123457,lag=0`
         
@@ -220,17 +192,11 @@
         - Temporarily stop one follower and observe whether the system continues to operate normally.
         - **Commands:**
             
-            bash
-            
-            Copy code
             
             `sudo systemctl stop redis`
             
         - **After Testing:**
             
-            bash
-            
-            Copy code
             
             `sudo systemctl start redis`
             
@@ -265,19 +231,12 @@
     - **Confirm No Synchronous Settings:**
         - **Command:**
             
-            bash
-            
-            Copy code
             
             `redis-cli -h <leader_host> -p 6379 CONFIG GET replica-*`
             
         - **Parameters to Check:**
             - Ensure parameters like `min-slaves-to-write` and `min-slaves-max-lag` are not set in a way enforcing synchronous behavior.
         - **Example Output:**
-            
-            bash
-            
-            Copy code
             
             `replica-read-only:yes replica-serve-stale-data:yes`
             
@@ -288,10 +247,6 @@
     - **Simulate Leader Failure:**
         - Stop the leader and observe follower behavior.
         - **Commands:**
-            
-            bash
-            
-            Copy code
             
             `sudo systemctl stop redis`
             
@@ -323,17 +278,11 @@
     
     - **Command:**
         
-        bash
-        
-        Copy code
         
         `redis-cli -h <leader_host> -p 6379 CONFIG GET repl-diskless-sync`
         
     - **Expected Output:**
         
-        bash
-        
-        Copy code
         
         `repl-diskless-sync:yes`
         
@@ -341,9 +290,6 @@
         
         - `repl-diskless-sync-delay`: Time Redis waits before starting diskless replication to allow multiple followers to synchronize simultaneously.
         
-        bash
-        
-        Copy code
         
         `redis-cli -h <leader_host> -p 6379 CONFIG GET repl-diskless-sync-delay`
         
@@ -372,9 +318,6 @@
 - **Recommendations:**
     - If not enabled and suitable for your environment, consider enabling it by setting:
         
-        bash
-        
-        Copy code
         
         `CONFIG SET repl-diskless-sync yes`
         
@@ -392,17 +335,11 @@
     
     - **Commands:**
         
-        bash
-        
-        Copy code
         
         `redis-cli -h <leader_host> -p 6379 CONFIG GET repl-backlog-size redis-cli -h <leader_host> -p 6379 CONFIG GET repl-backlog-ttl`
         
     - **Expected Output:**
         
-        vbnet
-        
-        Copy code
         
         `repl-backlog-size:1048576  # 1MB by default repl-backlog-ttl:3600      # 1 hour by default`
         
@@ -415,9 +352,6 @@
         - Look for logs indicating whether partial or full resynchronizations occur during follower reconnections.
         - **Example Log Entries:**
             
-            sql
-            
-            Copy code
             
             `Partial resynchronization request accepted. Full resync from master: a1b2c3d4e5f6...`
             
@@ -435,9 +369,6 @@
             - Followers experience frequent short-term disconnections.
         - **Command to Adjust:**
             
-            bash
-            
-            Copy code
             
             `redis-cli -h <leader_host> -p 6379 CONFIG SET repl-backlog-size 10485760  # 10MB redis-cli -h <leader_host> -p 6379 CONFIG SET repl-backlog-ttl 7200       # 2 hours`
             
@@ -460,9 +391,6 @@
     
     - **Commands:**
         
-        bash
-        
-        Copy code
         
         `redis-cli -h <leader_host> -p 6379 CONFIG GET repl-backlog-size redis-cli -h <leader_host> -p 6379 INFO replication`
         
