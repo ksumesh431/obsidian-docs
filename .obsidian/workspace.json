@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Master-slave best practices.md",
+                "file": "AWS/assumed role setup.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redis/Master-slave best practices.md",
+                "file": "AWS/assumed role setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redis/Master-slave best practices.md",
+                "file": "AWS/assumed role setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redis/Master-slave best practices.md"
+                "file": "AWS/assumed role setup.md"
               }
             }
           },
@@ -183,36 +183,38 @@
   },
   "active": "28d0c9bb1eef2efc",
   "lastOpenFiles": [
-    "Untitled 1.md",
-    "Redis/Master-slave best practices.md",
-    "Redis",
-    "Untitled.md",
-    "waydroid.md",
-    "Postgres/basic setup.md",
-    "Python/venv.md",
-    "AWS/CDK-py/basic setup.md",
-    "Linux/Other commands.md",
-    "Postgres",
-    "Linux/Resizing root of ec2.md",
-    "Github/Using multiple ssh keys.md",
-    "Linux/Boot process.md",
-    "Miscellaneous/openvpn docker setup.md",
-    "Docker/docker compose cheatsheet.md",
-    "Docker/Basics.md",
-    "Docker/Networking.md",
-    "Useful links.md",
-    "Github/PR.md",
-    "Github/git_revert_cherry-pick_conflicts.pdf",
-    "Elasticsearch/Log configurations for opensearch.md",
-    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
+    "Linux/ssh directly to private instance using bastion.md",
+    "Miscellaneous/Public Key Infratructure.md",
+    "Miscellaneous/Untitled.md",
+    "Ansible/Set up ansible user with user data script.md",
+    "Kubernetes/HA master kubeadm setup.md",
+    "Kubernetes/Setup from scratch using kubeadm.md",
+    "Kubernetes/setting up alma linux (rhel based).md",
     "Interview/devops_questions overall.md",
-    "Miscellaneous/pointers.md",
-    "Slack Notifications from AWS SNS.md",
-    "Interview/Docker questions.md",
+    "Interview/Terraform.md",
+    "Interview/K8s.md",
     "Interview/Interview docs.md",
-    "Helm/Basics.md",
-    "Elasticsearch/Basics.md",
-    "Golang/Basics.md",
+    "Interview/Docker questions.md",
+    "2024-02-25.md",
+    "README.md",
+    "sample deployment.md",
+    "Miscellaneous/postgres docker setup.md",
+    "Kubernetes/Images/Pasted image 20240907203017.png",
+    "Kubernetes/Images/Pasted image 20240907203013.png",
+    "Kubernetes/Other commands.md",
+    "Kubernetes/Networking.md",
+    "Kubernetes/Logging n Monitoring.md",
+    "Kubernetes/kubectx and kubens cli.md",
+    "Kubernetes/Application Lifecycle Management.md",
+    "Kubernetes/CKA Tips.md",
+    "Kubernetes/Cluster Maintainence.md",
+    "Kubernetes/Encryption at Rest.md",
+    "Kubernetes/Core Concepts.md",
+    "Networking/Basics.md",
+    "Redis",
+    "Postgres",
+    "Github/git_revert_cherry-pick_conflicts.pdf",
+    "Elasticsearch/Images/Official Elastic Community - Beginner's Crash Course to Elastic Stack - Part 1 Intro to Elasticsearch and Kibana [gS_nHTWZEJ8 - 1536x864 - 17m48s].png",
     "pnpm",
     "Golang/Images/Pasted image 20240330222730.png",
     "Golang/Images",
@@ -227,8 +229,6 @@
     "Miscellaneous/Images/Pasted image 20230213235353.png",
     "AWS/Images/Pasted image 20231105053322.png",
     "new-relic/Images/Pasted image 20230918040125.png",
-    "new-relic/Images/Pasted image 20230918040425.png",
-    "new-relic/Images/Pasted image 20230620221541.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas"
