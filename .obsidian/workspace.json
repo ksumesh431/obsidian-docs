@@ -205,6 +205,7 @@
   },
   "active": "4e91f02d61f36458",
   "lastOpenFiles": [
+    "obsidian__git_push.log",
     "Next/next deploy.md",
     "Ansible/Authenticate to remote hosts.md",
     "Next",
@@ -233,7 +234,6 @@
     "Kubernetes/Images/Pasted image 20240907203013.png",
     "Kubernetes/Other commands.md",
     "Kubernetes/Networking.md",
-    "Kubernetes/Logging n Monitoring.md",
     "Redis",
     "Postgres",
     "Github/git_revert_cherry-pick_conflicts.pdf",
