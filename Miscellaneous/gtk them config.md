@@ -1,0 +1,1 @@
+./install.sh -n Nightfox -t purple -c dark -l --tweaks float outline carbon
