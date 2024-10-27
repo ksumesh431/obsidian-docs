@@ -1,6 +1,10 @@
 {
-  "accentColor": "",
-  "baseFontSize": 14,
+  "accentColor": "#181825",
+  "baseFontSize": 16,
   "translucency": false,
-  "cssTheme": "Things"
+  "cssTheme": "Catppuccin",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Ubuntu",
+  "monospaceFontFamily": "Ubuntu Mono",
+  "baseFontSizeAction": true
 }
