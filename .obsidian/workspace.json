@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slack Notifications from AWS SNS.md",
+                "file": "AWS/apache script for ec2 user data in ubuntu.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Slack Notifications from AWS SNS"
+              "title": "apache script for ec2 user data in ubuntu"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "apache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,6 +189,11 @@
   },
   "active": "4e91f02d61f36458",
   "lastOpenFiles": [
+    "Postgres/postgres docker setup.md",
+    "Postgres/basic setup.md",
+    "django/Basic server setup.md",
+    "django/models.md",
+    "Slack Notifications from AWS SNS.md",
     "Concurrent website traffic test.md",
     "2024-02-25.md",
     "EKS/Users.md",
@@ -213,13 +217,8 @@
     "Interview/Terraform.md",
     "Interview/K8s.md",
     "Interview/Interview docs.md",
-    "Interview/Docker questions.md",
-    "README.md",
-    "sample deployment.md",
-    "Miscellaneous/postgres docker setup.md",
     "Kubernetes/Images/Pasted image 20240907203017.png",
     "Kubernetes/Images/Pasted image 20240907203013.png",
-    "Kubernetes/Other commands.md",
     "Redis",
     "Postgres",
     "Github/git_revert_cherry-pick_conflicts.pdf",
