@@ -7,6 +7,6 @@
 - do the changes
 - git add .
 - git commit -m "msg"
-- git push origin temp (As we cant push to main/master branch on the origin, we will push to temp branch on origin) (here upstream is the opriginal repo and origin is the forked repo)
+- git push origin temp (As we cant push to main/master branch on the origin, we will push to temp branch on origin) (here upstream is the original repo and origin is the forked repo)
 - go to github on yr forked repo and click on compare and pull request ()
 - add title and comments for pr and create pr
