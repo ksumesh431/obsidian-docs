@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Postgres/postgres docker setup.md",
+                "file": "AWS/assumed role setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "postgres docker setup"
+              "title": "assumed role setup"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "20e3285e14ad4cf1",
   "lastOpenFiles": [
+    "Postgres/postgres docker setup.md",
     "Postgres/basic setup.md",
     "Github/PR workflow.md",
     "Github/Using multiple ssh keys.md",
@@ -197,7 +198,6 @@
     "Github/git_revert_cherry-pick_conflicts.pdf",
     "Github/git workflows.md",
     "AWS/apache script for ec2 user data in ubuntu.md",
-    "Postgres/postgres docker setup.md",
     "django/Basic server setup.md",
     "django/models.md",
     "Slack Notifications from AWS SNS.md",
