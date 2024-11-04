@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/assumed role setup.md",
+                "file": "Github/git workflows.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "assumed role setup"
+              "title": "git workflows"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "20e3285e14ad4cf1",
   "lastOpenFiles": [
+    "AWS/assumed role setup.md",
     "Postgres/postgres docker setup.md",
     "Postgres/basic setup.md",
     "Github/PR workflow.md",
@@ -215,7 +216,6 @@
     "Kubernetes/HA master kubeadm setup.md",
     "Kubernetes/Setup from scratch using kubeadm.md",
     "Linux/ssh directly to private instance using bastion.md",
-    "AWS/assumed role setup.md",
     "Miscellaneous/Public Key Infratructure.md",
     "Ansible/Set up ansible user with user data script.md",
     "Kubernetes/setting up alma linux (rhel based).md",
