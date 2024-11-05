@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github/git workflows.md",
+                "file": "AWS/apache script for ec2 user data in ubuntu.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git workflows"
+              "title": "apache script for ec2 user data in ubuntu"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "20e3285e14ad4cf1",
   "lastOpenFiles": [
+    "Github/git workflows.md",
     "AWS/assumed role setup.md",
     "Postgres/postgres docker setup.md",
     "Postgres/basic setup.md",
@@ -197,7 +198,6 @@
     "Github/Using multiple ssh keys.md",
     "Github/one way to get new changes from a remote branch.md",
     "Github/git_revert_cherry-pick_conflicts.pdf",
-    "Github/git workflows.md",
     "AWS/apache script for ec2 user data in ubuntu.md",
     "django/Basic server setup.md",
     "django/models.md",
