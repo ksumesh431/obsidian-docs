@@ -12,3 +12,6 @@ Simialrily have redirected the kernel logs and nginx logs from filebeat-> logsta
 
 
 can visualise cloud architecture and very clear for debugging issues
+
+
+Set up bitbucket repo structure for backend teams

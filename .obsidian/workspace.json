@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/apache script for ec2 user data in ubuntu.md",
+                "file": "SCP.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "apache script for ec2 user data in ubuntu"
+              "title": "SCP"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "interv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +190,13 @@
   },
   "active": "20e3285e14ad4cf1",
   "lastOpenFiles": [
+    "2024-11-06.md",
+    "SCP.md",
+    "Obsidian Settings.md",
+    "Interview/devops_questions overall.md",
+    "Interview/Interview docs.md",
     "Github/git workflows.md",
+    "AWS/apache script for ec2 user data in ubuntu.md",
     "AWS/assumed role setup.md",
     "Postgres/postgres docker setup.md",
     "Postgres/basic setup.md",
@@ -198,7 +204,6 @@
     "Github/Using multiple ssh keys.md",
     "Github/one way to get new changes from a remote branch.md",
     "Github/git_revert_cherry-pick_conflicts.pdf",
-    "AWS/apache script for ec2 user data in ubuntu.md",
     "django/Basic server setup.md",
     "django/models.md",
     "Slack Notifications from AWS SNS.md",
@@ -214,11 +219,6 @@
     "Docker/Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances.md",
     "Kubernetes/Application Lifecycle Management.md",
     "Kubernetes/HA master kubeadm setup.md",
-    "Kubernetes/Setup from scratch using kubeadm.md",
-    "Linux/ssh directly to private instance using bastion.md",
-    "Miscellaneous/Public Key Infratructure.md",
-    "Ansible/Set up ansible user with user data script.md",
-    "Kubernetes/setting up alma linux (rhel based).md",
     "Kubernetes/Images/Pasted image 20240907203017.png",
     "Kubernetes/Images/Pasted image 20240907203013.png",
     "Redis",
