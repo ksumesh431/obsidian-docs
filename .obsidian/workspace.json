@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Jenkins/Terraform basic setup with docker compose.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",

@@ -43,8 +43,51 @@ volumes:
 
 `docker compose up --build -d`
 
-- Install aws credential provider and set up aws creds / or can just attach the required role if runnign in aws
-
+- ~~Install aws credential provider and set up aws creds / or can just attach the required role if runnign in aws~~
+- In credentials, set up secret text type, and set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
 - install terraform jenkins plugin
 - set up tf jenkins plugin by setting the correcrt path on host machine (make sure tf is present on host machine already)
 - create job (pipeline)
+``` groovy
+pipeline {
+    environment {
+        AWS_ACCESS_KEY_ID = credentials("AWS_ACCESS_KEY_ID")
+        AWS_SECRET_ACCESS_KEY = credentials("AWS_SECRET_ACCESS_KEY")
+    }
+    agent any
+    tools {
+        terraform 'terraform'
+    }
+    parameters {
+        booleanParam(name: 'DO_DESTROY', defaultValue: false, description: 'Set to true to run terraform destroy instead of apply')
+    }
+    stages {
+        stage("Git Checkout") {
+            steps {
+                git branch: 'main', url: 'https://github.com/ksumesh431/tf-jenkins-test'
+            }
+        }
+        stage("Terraform Init") {
+            steps {
+                sh 'terraform init'
+            }
+        }
+        stage("Terraform Plan or Apply/Destroy") {
+            steps {
+                script {
+                    if (params.DO_DESTROY) {
+                        echo 'Running terraform destroy...'
+                        sh 'terraform destroy --auto-approve'
+                    } else {
+                        echo 'Running terraform plan and apply...'
+                        sh 'terraform plan'
+                        sh 'terraform apply --auto-approve'
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+```
