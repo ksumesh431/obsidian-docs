@@ -79,3 +79,118 @@ STEPS TO BE DONE IN "TRUSTED ACCOUNT"
 
 
 
+---
+
+# Assumed role setup for one back-end account running boto3 queries on multiple customer accounts
+
+To set up cross-account access so that your backend EC2 instance in the backend AWS account can assume roles in your customers' accounts, you'll need to configure both the backend IAM role (`backend_role`) and the IAM roles in each customer account (`role1`, `role2`, `role3`). Here are the detailed steps for both sides:
+
+---
+
+### Steps to be Followed in the "Backend Account"
+
+#### 1. Verify or Create the Backend IAM Role (`backend_role`)
+Your EC2 instance already has the IAM role `backend_role` attached to it, which allows it to use AWS CLI commands without needing explicit access keys. You will need to add policies to this role to allow it to assume roles in your customers' accounts.
+
+- **Policy**: Add an IAM policy to `backend_role` that grants `sts:AssumeRole` permissions on each customer account's IAM role ARN (like `role1`, `role2`, `role3`).
+
+Here’s an example of the policy:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "sts:AssumeRole",
+      "Resource": [
+        "arn:aws:iam::<CustomerAccount1ID>:role/role1",
+        "arn:aws:iam::<CustomerAccount2ID>:role/role2",
+        "arn:aws:iam::<CustomerAccount3ID>:role/role3"
+      ]
+    }
+  ]
+}
+```
+
+Replace `<CustomerAccount1ID>`, `<CustomerAccount2ID>`, and `<CustomerAccount3ID>` with the actual AWS account IDs for each customer.
+
+**Steps**:
+1. Go to the IAM console in the backend account.
+2. Locate and select `backend_role`.
+3. Attach the above policy to `backend_role`.
+
+### Steps to be Performed in Each Customer Account
+
+For each customer account (e.g., `account1`, `account2`, `account3`), you'll need to create an IAM role (e.g., `role1`, `role2`, `role3`) with a trust policy that allows the `backend_role` from the backend account to assume it. You’ll also need to attach any necessary policies to each of these roles to grant permissions to resources within each account.
+
+#### 1. Create IAM Role for the Backend Account to Assume
+For each customer account, create a role (e.g., `role1`, `role2`, `role3`) with the following setup:
+
+- **Trusted Entities (Trust Policy)**: This policy should allow the backend account to assume the role.
+
+Here’s an example trust policy for `role1` (assuming `backend_account_id` is the account ID of the backend account):
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::<backend_account_id>:role/backend_role"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+```
+
+Replace `<backend_account_id>` with the account ID of your backend AWS account.
+
+**Steps**:
+1. Go to the IAM console in the customer account.
+2. Create a new role (e.g., `role1` for `account1`, `role2` for `account2`, and `role3` for `account3`).
+3. Choose "Another AWS account" as the trusted entity.
+4. Enter the ARN for the backend IAM role (`backend_role`), and add the trust policy above.
+
+#### 2. Attach Permissions to Customer Account Roles
+Attach any necessary permissions to `role1`, `role2`, and `role3` that you want your backend EC2 instance to have within each customer account. This could include permissions like `s3:ListBucket` or `ec2:DescribeInstances`, depending on the required access.
+
+For example, to allow S3 read access, attach a policy like this to `role1` in `account1`:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:GetObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::example-bucket",
+        "arn:aws:s3:::example-bucket/*"
+      ]
+    }
+  ]
+}
+```
+
+**Steps**:
+1. Still in the IAM console of each customer account, go to the role (e.g., `role1`).
+2. Attach the necessary policy granting access to resources in that customer account.
+
+---
+
+### Summary of the Workflow
+
+1. **Backend Account**:
+   - Ensure `backend_role` has `sts:AssumeRole` permissions for each customer’s IAM role.
+   
+2. **Customer Accounts**:
+   - Create an IAM role (e.g., `role1`) with a trust policy that allows the backend account’s IAM role (`backend_role`) to assume it.
+   - Attach any necessary policies to `role1`, `role2`, `role3` to provide access to specific resources within each customer account.
+
+With this setup complete, the `backend_role` on your EC2 instance should be able to assume `role1`, `role2`, or `role3` in each customer account using the code you provided.

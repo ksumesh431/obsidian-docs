@@ -15,3 +15,5 @@ can visualise cloud architecture and very clear for debugging issues
 
 
 Set up bitbucket repo structure for backend teams
+
+WOrked as both an embedded sre and a dedicated sre

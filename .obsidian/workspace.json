@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jenkins/Terraform basic setup with docker compose.md",
+                "file": "AWS/assumed role setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terraform basic setup with docker compose"
+              "title": "assumed role setup"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "799ff001e7235d2f",
   "lastOpenFiles": [
-    "Docker/Basics.md",
+    "Interview/devops_questions overall.md",
     "Jenkins/Terraform basic setup with docker compose.md",
+    "Docker/Basics.md",
     "Jenkins",
     "Kubernetes/Application Lifecycle Management.md",
     "CKA exam/Untitled.md",
@@ -201,7 +202,6 @@
     "2024-11-06.md",
     "SCP.md",
     "Obsidian Settings.md",
-    "Interview/devops_questions overall.md",
     "Interview/Interview docs.md",
     "Github/git workflows.md",
     "AWS/apache script for ec2 user data in ubuntu.md",
