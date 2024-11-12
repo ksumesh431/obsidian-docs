@@ -11,10 +11,14 @@
             "id": "799ff001e7235d2f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Postgres/basic setup.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "basic setup"
             }
           }
         ]
@@ -183,8 +187,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "db48807c47194c50",
+  "active": "799ff001e7235d2f",
   "lastOpenFiles": [
+    "Miscellaneous/open web ui.md",
     "AWS/Untitled Diagram.svg",
     "AWS/assumed role setup.md",
     "AWS/Untitled.canvas",
