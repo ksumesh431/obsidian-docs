@@ -1,0 +1,3 @@
+- create pipeline project
+- select pipeline from scm
+- speciify git as scm and provide url

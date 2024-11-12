@@ -11,14 +11,10 @@
             "id": "799ff001e7235d2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/assumed role setup.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "assumed role setup"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker port",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,17 +177,31 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "799ff001e7235d2f",
+  "active": "db48807c47194c50",
   "lastOpenFiles": [
-    "Interview/devops_questions overall.md",
+    "AWS/Untitled Diagram.svg",
+    "AWS/assumed role setup.md",
+    "AWS/Untitled.canvas",
+    "AWS/Others.md",
+    "AWS/Lambda layer.md",
+    "AWS/Lambda in cloudformation.md",
+    "AWS/ECS.md",
+    "AWS/DMS.md",
+    "AWS/codepipeline cfn.md",
+    "AWS/AWS CLI commands tips.md",
+    "AWS/apache script for ec2 user data in ubuntu.md",
+    "AWS/CloudWatch.md",
+    "Jenkins/Installation.md",
+    "Linux/Other commands.md",
+    "Jenkins/SCM Jenkinsfile manual setup.md",
     "Jenkins/Terraform basic setup with docker compose.md",
+    "Interview/devops_questions overall.md",
     "Docker/Basics.md",
     "Jenkins",
     "Kubernetes/Application Lifecycle Management.md",
@@ -204,22 +214,8 @@
     "Obsidian Settings.md",
     "Interview/Interview docs.md",
     "Github/git workflows.md",
-    "AWS/apache script for ec2 user data in ubuntu.md",
-    "AWS/assumed role setup.md",
-    "Github/PR workflow.md",
-    "Github/Using multiple ssh keys.md",
-    "Github/one way to get new changes from a remote branch.md",
     "Github/git_revert_cherry-pick_conflicts.pdf",
-    "django/Basic server setup.md",
-    "django/models.md",
-    "Slack Notifications from AWS SNS.md",
-    "Concurrent website traffic test.md",
-    "2024-02-25.md",
-    "EKS/Users.md",
-    "waydroid.md",
-    "Miscellaneous/gtk them config.md",
     "obsidian__git_push.log",
-    "Next/next deploy.md",
     "Next",
     "Kubernetes/Images/Pasted image 20240907203017.png",
     "Kubernetes/Images/Pasted image 20240907203013.png",
@@ -235,7 +231,6 @@
     "AWS/Images/Pasted image 20240205223325.png",
     "Miscellaneous/Images/Pasted image 20230213235353.png",
     "AWS/Images/Pasted image 20231105053322.png",
-    "new-relic/Images/Pasted image 20230918040125.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas"

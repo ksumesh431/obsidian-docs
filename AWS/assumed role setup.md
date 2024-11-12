@@ -194,3 +194,4 @@ For example, to allow S3 read access, attach a policy like this to `role1` in `a
    - Attach any necessary policies to `role1`, `role2`, `role3` to provide access to specific resources within each customer account.
 
 With this setup complete, the `backend_role` on your EC2 instance should be able to assume `role1`, `role2`, or `role3` in each customer account using the code you provided.
+
