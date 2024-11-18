@@ -76,7 +76,6 @@ Branching strategies [4 GIT branching strategies that you definitely need to kno
 Using tags/ versions practical
 
 
-
 ---
 
 

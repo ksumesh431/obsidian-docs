@@ -11,7 +11,7 @@ Have set up firelens sidecar with the ecs containers to capture the main contain
 Simialrily have redirected the kernel logs and nginx logs from filebeat-> logstash -> elastcisearch to just fluentd -> opensearch
 
 
-can visualise cloud architecture and very clear for debugging issues
+can visualise cloud architecture and very clear for debugging issre thues
 
 
 Set up bitbucket repo structure for backend teams
