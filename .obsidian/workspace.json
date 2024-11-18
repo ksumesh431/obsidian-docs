@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS boot process/Sequence.md",
-                "mode": "source",
+                "file": "EKS/Cluster setup.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequence"
+              "title": "Cluster setup"
             }
           }
         ]
@@ -189,8 +189,16 @@
   },
   "active": "f26f44b0dab232d8",
   "lastOpenFiles": [
-    "Ansible/Set up ansible user with user data script.md",
+    "EKS/EBS.md",
+    "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
+    "Golang/initializing project.md",
+    "Interview/Terraform.md",
+    "Interview/K8s.md",
+    "Interview/Interview docs.md",
+    "Interview/Docker questions.md",
+    "Interview/devops_questions overall.md",
     "OS boot process/Sequence.md",
+    "Ansible/Set up ansible user with user data script.md",
     "OS boot process",
     "Ansible/Common commands.md",
     "Ansible/Authenticate to remote hosts.md",
@@ -207,15 +215,7 @@
     "AWS/apache script for ec2 user data in ubuntu.md",
     "AWS/assumed role setup.md",
     "AWS/CDK-py/basic setup.md",
-    "Interview/Terraform.md",
-    "Interview/K8s.md",
-    "Interview/Interview docs.md",
-    "Interview/Docker questions.md",
-    "Interview/devops_questions overall.md",
     "Github/git workflows.md",
-    "Github/one way to get new changes from a remote branch.md",
-    "Github/PR workflow.md",
-    "Postgres/basic setup.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
