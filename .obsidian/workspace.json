@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Cluster setup"
             }
+          },
+          {
+            "id": "25bc62d66e8ccbbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miscellaneous/Public Key Infratructure.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Public Key Infratructure"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "encryp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +88,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,8 +201,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f26f44b0dab232d8",
+  "active": "25bc62d66e8ccbbd",
   "lastOpenFiles": [
+    "Elasticsearch/Log configurations for opensearch.md",
+    "Miscellaneous/TLS 1.3.md",
     "EKS/EBS.md",
     "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
     "Golang/initializing project.md",
@@ -214,8 +230,6 @@
     "AWS/AWS CLI commands tips.md",
     "AWS/apache script for ec2 user data in ubuntu.md",
     "AWS/assumed role setup.md",
-    "AWS/CDK-py/basic setup.md",
-    "Github/git workflows.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
