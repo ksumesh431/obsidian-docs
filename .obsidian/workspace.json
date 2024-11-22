@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9be7e0aa4eef95b",
+        "id": "00a253792278fe71",
         "type": "tabs",
         "children": [
           {
-            "id": "a2c0c103dd4b8361",
+            "id": "2232f14da88f2c5c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "port",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -182,8 +183,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "795eff0f9c3a33ee",
+  "active": "2232f14da88f2c5c",
   "lastOpenFiles": [
+    "Terraform/cidrsubnet function.md",
     "Elasticsearch/Log configurations for opensearch.md",
     "Miscellaneous/TLS 1.3.md",
     "EKS/EBS.md",
@@ -210,7 +212,6 @@
     "AWS/CloudWatch.md",
     "AWS/AWS CLI commands tips.md",
     "AWS/apache script for ec2 user data in ubuntu.md",
-    "AWS/assumed role setup.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
