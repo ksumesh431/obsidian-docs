@@ -11,10 +11,14 @@
             "id": "2232f14da88f2c5c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Postgres/postgres docker setup.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "postgres docker setup"
             }
           }
         ]
@@ -185,6 +189,8 @@
   },
   "active": "2232f14da88f2c5c",
   "lastOpenFiles": [
+    "Postgres/basic setup.md",
+    "django/Basic server setup.md",
     "Terraform/cidrsubnet function.md",
     "Elasticsearch/Log configurations for opensearch.md",
     "Miscellaneous/TLS 1.3.md",
@@ -210,8 +216,6 @@
     "AWS/DMS.md",
     "AWS/codepipeline cfn.md",
     "AWS/CloudWatch.md",
-    "AWS/AWS CLI commands tips.md",
-    "AWS/apache script for ec2 user data in ubuntu.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",

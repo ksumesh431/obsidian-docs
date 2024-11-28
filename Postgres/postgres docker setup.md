@@ -22,3 +22,7 @@
 
 - Verify restore by listing tables
 `sudo docker exec -it my_postgres psql -U postgres -d smartdog -c "\dt"`
+
+
+## Verify connection using psql client
+`psql -h 141.148.193.94 -p 5432 -U postgres -d smartdog`
