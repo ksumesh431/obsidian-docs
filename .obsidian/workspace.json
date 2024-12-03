@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/zen browser update (appimage).md",
-                "mode": "preview",
+                "file": "Elasticsearch/opensearch benchmark.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zen browser update (appimage)"
+              "title": "opensearch benchmark"
             }
           }
         ]
@@ -190,6 +190,7 @@
   "active": "3789114028bad3ec",
   "lastOpenFiles": [
     "Miscellaneous/zen browser update (appimage).md",
+    "Elasticsearch/opensearch benchmark.md",
     "Miscellaneous/open web ui.md",
     "Miscellaneous/openvpn docker setup.md",
     "Postgres/postgres docker setup.md",
@@ -215,7 +216,6 @@
     "AWS/terraform usecase.md",
     "AWS/Others.md",
     "AWS/Lambda layer.md",
-    "AWS/Lambda in cloudformation.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
