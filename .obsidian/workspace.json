@@ -11,10 +11,14 @@
             "id": "73f6e3e9ea894391",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Elasticsearch/opensearch benchmark.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "opensearch benchmark"
             }
           }
         ]
@@ -183,8 +187,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "db48807c47194c50",
+  "active": "73f6e3e9ea894391",
   "lastOpenFiles": [
+    "Elasticsearch/Log configurations for opensearch.md",
+    "Elasticsearch/Basics.md",
     "Elasticsearch/opensearch benchmark.md",
     "Miscellaneous/zen browser update (appimage).md",
     "Miscellaneous/open web ui.md",
@@ -193,7 +199,6 @@
     "Postgres/basic setup.md",
     "django/Basic server setup.md",
     "Terraform/cidrsubnet function.md",
-    "Elasticsearch/Log configurations for opensearch.md",
     "Miscellaneous/TLS 1.3.md",
     "EKS/EBS.md",
     "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
@@ -211,7 +216,6 @@
     "AWS/VPC endpoint example.md",
     "AWS/terraform usecase.md",
     "AWS/Others.md",
-    "AWS/Lambda layer.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
