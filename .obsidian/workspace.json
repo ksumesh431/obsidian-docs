@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elasticsearch/opensearch benchmark.md",
-                "mode": "source",
+                "file": "Miscellaneous/zen browser update (appimage).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "opensearch benchmark"
+              "title": "zen browser update (appimage)"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,8 +188,8 @@
   },
   "active": "73f6e3e9ea894391",
   "lastOpenFiles": [
-    "Github/git workflows.md",
     "Elasticsearch/opensearch benchmark.md",
+    "Github/git workflows.md",
     "Elasticsearch/Log configurations for opensearch.md",
     "Elasticsearch/Basics.md",
     "Miscellaneous/zen browser update (appimage).md",
