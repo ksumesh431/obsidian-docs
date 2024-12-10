@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conflic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,9 +189,10 @@
   },
   "active": "73f6e3e9ea894391",
   "lastOpenFiles": [
+    "Github/git workflows.md",
+    "Elasticsearch/opensearch benchmark.md",
     "Elasticsearch/Log configurations for opensearch.md",
     "Elasticsearch/Basics.md",
-    "Elasticsearch/opensearch benchmark.md",
     "Miscellaneous/zen browser update (appimage).md",
     "Miscellaneous/open web ui.md",
     "Miscellaneous/openvpn docker setup.md",
@@ -215,7 +216,6 @@
     "Ansible/Authenticate to remote hosts.md",
     "AWS/VPC endpoint example.md",
     "AWS/terraform usecase.md",
-    "AWS/Others.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
