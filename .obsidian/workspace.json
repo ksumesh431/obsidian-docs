@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d41f2ac92cd5cb53",
+        "id": "d248c555f562c229",
         "type": "tabs",
         "children": [
           {
-            "id": "73f6e3e9ea894391",
+            "id": "52a5ea1fc6d8dca9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscellaneous/zen browser update (appimage).md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "zen browser update (appimage)"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zen",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +69,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -186,13 +183,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "73f6e3e9ea894391",
+  "active": "52a5ea1fc6d8dca9",
   "lastOpenFiles": [
+    "Miscellaneous/fix snap apps box font issue.md",
+    "Miscellaneous/zen browser update (appimage).md",
     "Elasticsearch/opensearch benchmark.md",
     "Github/git workflows.md",
     "Elasticsearch/Log configurations for opensearch.md",
     "Elasticsearch/Basics.md",
-    "Miscellaneous/zen browser update (appimage).md",
     "Miscellaneous/open web ui.md",
     "Miscellaneous/openvpn docker setup.md",
     "Postgres/postgres docker setup.md",
@@ -214,7 +212,6 @@
     "Ansible/Common commands.md",
     "Ansible/Authenticate to remote hosts.md",
     "AWS/VPC endpoint example.md",
-    "AWS/terraform usecase.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",

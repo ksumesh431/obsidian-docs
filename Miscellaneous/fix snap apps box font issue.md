@@ -1,0 +1,1 @@
+`rm -rf ~/.cache/fontconfig && sudo fc-cache -r -v`
