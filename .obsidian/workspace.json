@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/next deploy.md",
+                "file": "Miscellaneous/zen browser update (appimage).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "next deploy"
+              "title": "zen browser update (appimage)"
             }
           }
         ]
@@ -187,10 +187,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "db48807c47194c50",
+  "active": "52a5ea1fc6d8dca9",
   "lastOpenFiles": [
-    "Miscellaneous/fix snap apps box font issue.md",
+    "Miscellaneous/wslconfig.md",
+    "Miscellaneous/pointers.md",
     "Miscellaneous/zen browser update (appimage).md",
+    "README.md",
+    "Next/next deploy.md",
+    "Miscellaneous/fix snap apps box font issue.md",
     "Elasticsearch/opensearch benchmark.md",
     "Github/git workflows.md",
     "Elasticsearch/Log configurations for opensearch.md",
@@ -211,11 +215,7 @@
     "Interview/Docker questions.md",
     "Interview/devops_questions overall.md",
     "OS boot process/Sequence.md",
-    "Ansible/Set up ansible user with user data script.md",
     "OS boot process",
-    "Ansible/Common commands.md",
-    "Ansible/Authenticate to remote hosts.md",
-    "AWS/VPC endpoint example.md",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
     "Jenkins",
