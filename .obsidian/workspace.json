@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/next deploy.md",
-                "mode": "preview",
+                "file": "waydroid.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "next deploy"
+              "title": "waydroid"
+            }
+          },
+          {
+            "id": "07b30146bff8d7b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "waydroid.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "waydroid"
+            }
+          },
+          {
+            "id": "b187fef46562614b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "local linux setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "local linux setup"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,16 +216,22 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "52a5ea1fc6d8dca9",
+  "active": "b187fef46562614b",
   "lastOpenFiles": [
+    "Images/Pasted image 20241230194206.png",
+    "waydroid.md",
+    "local linux setup.md",
+    "Miscellaneous/pointers.md",
+    "Github/PR workflow.md",
+    "Linux/sudoers.md",
+    "git test.md",
+    "Next/next deploy.md",
     "Kubernetes/HA master kubeadm setup.md",
     "CKA exam/Untitled.md",
     "EKS/Cluster setup.md",
     "Miscellaneous/zen browser update (appimage).md",
     "Miscellaneous/wslconfig.md",
-    "Miscellaneous/pointers.md",
     "README.md",
-    "Next/next deploy.md",
     "Miscellaneous/fix snap apps box font issue.md",
     "Elasticsearch/opensearch benchmark.md",
     "Github/git workflows.md",
@@ -209,12 +244,6 @@
     "django/Basic server setup.md",
     "Terraform/cidrsubnet function.md",
     "Miscellaneous/TLS 1.3.md",
-    "EKS/EBS.md",
-    "EKS/EKS security (rbac, SA, IAM role, IRSA etc.).md",
-    "Golang/initializing project.md",
-    "Interview/Terraform.md",
-    "Interview/K8s.md",
-    "Interview/Interview docs.md",
     "OS boot process",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
