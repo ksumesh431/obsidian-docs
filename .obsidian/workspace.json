@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "local linux setup.md",
-                "mode": "source",
+                "file": "Docker/Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "local linux setup"
+              "title": "Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances"
             }
           }
         ],
@@ -218,9 +218,10 @@
   },
   "active": "b187fef46562614b",
   "lastOpenFiles": [
+    "Docker/Images/Pasted image 20230126033431.png",
+    "local linux setup.md",
     "Images/Pasted image 20241230194206.png",
     "waydroid.md",
-    "local linux setup.md",
     "Miscellaneous/pointers.md",
     "Github/PR workflow.md",
     "Linux/sudoers.md",
@@ -264,7 +265,6 @@
     "Python/Images/Pasted image 20240223233515.png",
     "AWS/Images/Pasted image 20240205223325.png",
     "Miscellaneous/Images/Pasted image 20230213235353.png",
-    "AWS/Images/Pasted image 20231105053322.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Elasticsearch/Untitled.canvas"
