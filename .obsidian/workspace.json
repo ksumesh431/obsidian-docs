@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d248c555f562c229",
+        "id": "d232c1434918564f",
         "type": "tabs",
         "children": [
           {
-            "id": "52a5ea1fc6d8dca9",
+            "id": "58536f5cbb9d1800",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "waydroid.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "waydroid"
-            }
-          },
-          {
-            "id": "07b30146bff8d7b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "waydroid.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "waydroid"
-            }
-          },
-          {
-            "id": "b187fef46562614b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscellaneous/zen browser portable tar setup.md",
+                "file": "AWS/assumed role setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zen browser portable tar setup"
+              "title": "assumed role setup"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,10 +187,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b187fef46562614b",
+  "active": "58536f5cbb9d1800",
   "lastOpenFiles": [
-    "Miscellaneous/zen browser update (appimage).md",
     "Miscellaneous/zen browser portable tar setup.md",
+    "Miscellaneous/zen browser update (appimage).md",
     "local linux setup.md",
     "Docker/Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances.md",
     "Docker/Images/Pasted image 20230126033431.png",
