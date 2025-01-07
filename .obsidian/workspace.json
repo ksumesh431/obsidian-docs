@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/assumed role setup.md",
+                "file": "Miscellaneous/bluetooth linux and windows dual boot fix.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "assumed role setup"
+              "title": "bluetooth linux and windows dual boot fix"
             }
           }
         ]
@@ -189,6 +189,8 @@
   },
   "active": "58536f5cbb9d1800",
   "lastOpenFiles": [
+    "AWS/assumed role setup.md",
+    "Miscellaneous/bluetooth linux and windows dual boot fix.md",
     "Miscellaneous/zen browser portable tar setup.md",
     "Miscellaneous/zen browser update (appimage).md",
     "local linux setup.md",
@@ -215,8 +217,6 @@
     "Miscellaneous/openvpn docker setup.md",
     "Postgres/postgres docker setup.md",
     "Postgres/basic setup.md",
-    "django/Basic server setup.md",
-    "Terraform/cidrsubnet function.md",
     "OS boot process",
     "AWS/Untitled Diagram.svg",
     "AWS/Untitled.canvas",
