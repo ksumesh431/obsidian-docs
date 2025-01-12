@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/zen browser portable tar setup.md",
-                "mode": "source",
+                "file": "Elasticsearch/opensearch benchmark.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zen browser portable tar setup"
+              "title": "opensearch benchmark"
             }
           }
         ]
@@ -189,6 +189,7 @@
   },
   "active": "58536f5cbb9d1800",
   "lastOpenFiles": [
+    "Miscellaneous/zen browser portable tar setup.md",
     "Miscellaneous/zen browser update (appimage).md",
     "django/apps.md",
     "django/models.md",
@@ -199,7 +200,6 @@
     "django/Basic server setup.md",
     "Miscellaneous/bluetooth linux and windows dual boot fix.md",
     "AWS/assumed role setup.md",
-    "Miscellaneous/zen browser portable tar setup.md",
     "local linux setup.md",
     "Docker/Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances.md",
     "Docker/Images/Pasted image 20230126033431.png",
