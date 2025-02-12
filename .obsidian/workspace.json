@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/gtk them config.md",
+                "file": "AWS/Amazon linux 2023 Observium install.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gtk them config"
+              "title": "Amazon linux 2023 Observium install"
             }
           }
         ],
@@ -217,8 +217,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e8cebeddcd431f2e",
+  "active": "db48807c47194c50",
   "lastOpenFiles": [
+    "Miscellaneous/gtk them config.md",
+    "AWS/Amazon linux 2023 Observium install.md",
     "Miscellaneous/oh-my-posh setup wsl.md",
     "Miscellaneous/aws workspaces docker.md",
     "Next/SEO.md",
@@ -253,8 +255,6 @@
     "Github/PR workflow.md",
     "Linux/sudoers.md",
     "git test.md",
-    "Next/next deploy.md",
-    "Kubernetes/HA master kubeadm setup.md",
     "OS boot process",
     "AWS/Untitled.canvas",
     "Jenkins",
