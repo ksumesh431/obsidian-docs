@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Amazon linux 2023 Observium install.md",
+                "file": "Miscellaneous/win 10 virtmanager setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon linux 2023 Observium install"
+              "title": "win 10 virtmanager setup"
             }
           }
         ],
@@ -219,8 +219,8 @@
   },
   "active": "e8cebeddcd431f2e",
   "lastOpenFiles": [
-    "Miscellaneous/gtk them config.md",
     "AWS/Amazon linux 2023 Observium install.md",
+    "Miscellaneous/gtk them config.md",
     "Miscellaneous/oh-my-posh setup wsl.md",
     "Miscellaneous/aws workspaces docker.md",
     "Next/SEO.md",
