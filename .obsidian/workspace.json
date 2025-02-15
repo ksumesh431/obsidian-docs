@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/win 10 virtmanager setup.md",
+                "file": "EKS/Cluster setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "win 10 virtmanager setup"
+              "title": "Cluster setup"
             }
           }
         ],
@@ -219,12 +219,12 @@
   },
   "active": "e8cebeddcd431f2e",
   "lastOpenFiles": [
+    "Miscellaneous/win 10 virtmanager setup.md",
     "AWS/Amazon linux 2023 Observium install.md",
     "Miscellaneous/gtk them config.md",
     "Miscellaneous/oh-my-posh setup wsl.md",
     "Miscellaneous/aws workspaces docker.md",
     "Next/SEO.md",
-    "Miscellaneous/win 10 virtmanager setup.md",
     "Miscellaneous/Images/Pasted image 20250120041057.png",
     "Miscellaneous/Images/Pasted image 20250120041014.png",
     "Miscellaneous/Images/Pasted image 20250120040943.png",
