@@ -53,3 +53,37 @@ https://www.spice-space.org/download.html
 
 #### Alias for opening
 `alias win='nohup bash -c '\''virsh domstate win10 | grep -q running || virsh start win10 && virt-viewer win10'\'' > /dev/null 2>&1 &'`
+
+
+
+
+
+---
+---
+
+# Win 11
+install and setup kvm, then follow these steps
+1. iso using microwin
+2. https://sysguides.com/install-a-windows-11-virtual-machine-on-kvm
+3. chris util to debloat
+4. activate
+5. do not use core isolation due to significant performace hit
+
+For file share, share the folder using smb. follow these steps
+Create a folder in windows, and go to properties
+![](Images/Pasted%20image%2020250216013137.png)
+
+go to Share and put add "Everyone" with read and write
+![](Images/Pasted%20image%2020250216013217.png)
+
+
+
+Then search for managed advanced sharing
+![](Images/Pasted%20image%2020250216013306.png)
+
+Turn off password protected sharing
+![](Images/Pasted%20image%2020250216013348.png)
+
+
+Now from linux host, go to smb://windows_hostname/shared_folder
+Can add to bookmark
