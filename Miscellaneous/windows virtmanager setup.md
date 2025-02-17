@@ -87,3 +87,5 @@ Turn off password protected sharing
 
 Now from linux host, go to smb://windows_hostname/shared_folder
 Can add to bookmark
+
+ALso must set vgamem="65536" in Video settings. with this, can scale to 4k
