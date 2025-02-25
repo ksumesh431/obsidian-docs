@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "windows virtmanager setup"
             }
+          },
+          {
+            "id": "9a0dbd2c14d17c9f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,7 +229,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e8cebeddcd431f2e",
+  "active": "9a0dbd2c14d17c9f",
   "lastOpenFiles": [
     "Miscellaneous/Images/Pasted image 20250216013348.png",
     "Miscellaneous/Images/Pasted image 20250216013306.png",
