@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/CDK-py/basic setup.md",
+                "file": "Miscellaneous/windows virtmanager setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "basic setup"
+              "title": "windows virtmanager setup"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "windows",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,8 +189,8 @@
   },
   "active": "da7e57c1b2eaf290",
   "lastOpenFiles": [
-    "Miscellaneous/open web ui.md",
     "AWS/CDK-py/basic setup.md",
+    "Miscellaneous/open web ui.md",
     "Linux/amazon linux 2 hardening.md",
     "Miscellaneous/Images/Pasted image 20250216013348.png",
     "Miscellaneous/Images/Pasted image 20250216013306.png",
