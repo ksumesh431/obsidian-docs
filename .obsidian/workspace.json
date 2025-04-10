@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "50f000599d791f42",
+        "id": "0cf88e2f75066889",
         "type": "tabs",
         "children": [
           {
-            "id": "da7e57c1b2eaf290",
+            "id": "f5bff00b4e532b32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscellaneous/windows virtmanager setup.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "windows virtmanager setup"
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +183,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "da7e57c1b2eaf290",
+  "active": "f5bff00b4e532b32",
   "lastOpenFiles": [
+    "Miscellaneous/windows virtmanager setup.md",
     "AWS/CDK-py/basic setup.md",
     "Miscellaneous/open web ui.md",
     "Linux/amazon linux 2 hardening.md",
@@ -197,7 +194,6 @@
     "Miscellaneous/Images/Pasted image 20250216013217.png",
     "Miscellaneous/Images/Pasted image 20250216013137.png",
     "EKS/Cluster setup.md",
-    "Miscellaneous/windows virtmanager setup.md",
     "AWS/Amazon linux 2023 Observium install.md",
     "Miscellaneous/gtk them config.md",
     "Miscellaneous/oh-my-posh setup wsl.md",
