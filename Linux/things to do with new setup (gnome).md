@@ -9,4 +9,5 @@ packages to install
 - fastfetch
 - btop
 - vscode 
-- oh my posh terminakl setup
+- oh my posh terminal setup
+-  
