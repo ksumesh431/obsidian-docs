@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/gtk theme config.md",
-                "mode": "source",
+                "file": "Networking/Basics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gtk theme config"
+              "title": "Basics"
             }
           },
           {
@@ -204,6 +204,12 @@
   },
   "active": "7f9f7c3620605c1b",
   "lastOpenFiles": [
+    "Docker/Basics.md",
+    "Helm/Basics.md",
+    "Jenkins/Installation.md",
+    "Jenkins/Terraform basic setup with docker compose.md",
+    "Jenkins/SCM Jenkinsfile manual setup.md",
+    "Miscellaneous/gtk theme config.md",
     "Obsidian Settings.md",
     "local linux setup.md",
     "Linux/things to do with new setup (gnome).md",
@@ -226,7 +232,6 @@
     "Miscellaneous/Images/Pasted image 20250216013137.png",
     "EKS/Cluster setup.md",
     "AWS/Amazon linux 2023 Observium install.md",
-    "Miscellaneous/gtk theme config.md",
     "Miscellaneous/oh-my-posh setup wsl.md",
     "Miscellaneous/aws workspaces docker.md",
     "Next/SEO.md",
@@ -236,11 +241,6 @@
     "Miscellaneous/Images/Pasted image 20250120040916.png",
     "Miscellaneous/Images/Pasted image 20250120040851.png",
     "Miscellaneous/Images/Pasted image 20250120040821.png",
-    "Miscellaneous/zen browser portable tar setup.md",
-    "AWS/EBS volume management.md",
-    "Elasticsearch/opensearch benchmark.md",
-    "Miscellaneous/zen browser update (appimage).md",
-    "django/apps.md",
     "OS boot process",
     "AWS/Untitled.canvas",
     "Jenkins",
