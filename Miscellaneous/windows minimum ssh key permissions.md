@@ -1,0 +1,1 @@
+` icacls "./s1.py" /inheritance:d /remove:g Everyone Administrators "Authenticated Users" SYSTEM "BUILTIN\Users"`

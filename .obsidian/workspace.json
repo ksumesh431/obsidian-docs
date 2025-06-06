@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/User and group creation in linux.md",
+                "file": "Miscellaneous/windows minimum ssh key permissions.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "User and group creation in linux"
+              "title": "windows minimum ssh key permissions"
             }
           },
           {
@@ -204,6 +204,8 @@
   },
   "active": "7f9f7c3620605c1b",
   "lastOpenFiles": [
+    "Linux/User and group creation in linux.md",
+    "Miscellaneous/windows minimum ssh key permissions.md",
     "Linux/sudoers.md",
     "Linux/Resizing root of ec2.md",
     "Linux/Other commands.md",
@@ -229,8 +231,6 @@
     "Helm/publish own helm chart on github pages.md",
     "Helm/Basics.md",
     "Docker/Docker-for-Beginners-Mumshad-Mannambeth.pdf",
-    "Docker/docker compose cheatsheet.md",
-    "Docker/Deploying a Next.js Application on AWS ECS with ARM-based Graviton Instances.md",
     "Windows",
     "Miscellaneous/Images/Pasted image 20250216013348.png",
     "Miscellaneous/Images/Pasted image 20250216013306.png",
