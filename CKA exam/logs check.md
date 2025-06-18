@@ -1,0 +1,4 @@
+- `/var/log/pods`
+- `/var/log/containers`
+- `crictl ps` + `crictl logs`
+- kubelet logs: `/var/log/syslog` or `journalctl`
