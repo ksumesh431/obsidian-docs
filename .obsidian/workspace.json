@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0cf88e2f75066889",
+        "id": "8bad46b74dc84f1b",
         "type": "tabs",
         "children": [
           {
-            "id": "7f9f7c3620605c1b",
+            "id": "9f5e3dee1c455e6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CKA exam/logs check.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "logs check"
-            }
-          },
-          {
-            "id": "47e26614e4e302cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/things to do with new setup (gnome).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "things to do with new setup (gnome)"
+              "title": "New tab"
             }
           }
         ]
@@ -202,8 +184,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "7f9f7c3620605c1b",
+  "active": "9f5e3dee1c455e6f",
   "lastOpenFiles": [
+    "Linux/things to do with new setup (gnome).md",
+    "CKA exam/logs check.md",
     "Miscellaneous/windows minimum ssh key permissions.md",
     "Linux/User and group creation in linux.md",
     "Linux/sudoers.md",
@@ -228,8 +212,6 @@
     "Jenkins/Terraform basic setup with docker compose.md",
     "Jenkins/SCM Jenkinsfile manual setup.md",
     "Jenkins/Installation.md",
-    "Helm/publish own helm chart on github pages.md",
-    "Helm/Basics.md",
     "Docker/Docker-for-Beginners-Mumshad-Mannambeth.pdf",
     "Windows",
     "Miscellaneous/Images/Pasted image 20250216013348.png",
