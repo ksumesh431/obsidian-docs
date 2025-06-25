@@ -11,10 +11,14 @@
             "id": "9f5e3dee1c455e6f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Slack Notifications from AWS SNS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Slack Notifications from AWS SNS"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +188,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9f5e3dee1c455e6f",
+  "active": "db48807c47194c50",
   "lastOpenFiles": [
     "Linux/things to do with new setup (gnome).md",
     "CKA exam/logs check.md",
