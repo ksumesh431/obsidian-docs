@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "AWS/Transfer family sftp with windows smb share.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Transfer family sftp with windows smb share"

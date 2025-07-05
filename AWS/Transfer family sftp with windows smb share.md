@@ -54,3 +54,6 @@ This architecture facilitates a bidirectional file transfer process between an i
 4. After a successful upload, the Lambda deletes the file from the Windows file share.
     
 5. The external client can now log in via SFTP and download the `report.csv` file from their `outbound` folder.
+
+
+> 
