@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8bad46b74dc84f1b",
+        "id": "ec8a55b1f3970013",
         "type": "tabs",
         "children": [
           {
-            "id": "9f5e3dee1c455e6f",
+            "id": "416cb6fc47bdf765",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/Lambda layer.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lambda layer"
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +183,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9f5e3dee1c455e6f",
+  "active": "416cb6fc47bdf765",
   "lastOpenFiles": [
+    "AWS/Lambda layer.md",
     "AWS/Transfer family sftp with windows smb share.md",
     "Slack Notifications from AWS SNS.md",
     "Linux/things to do with new setup (gnome).md",
@@ -214,7 +211,6 @@
     "Kubernetes/Core Concepts.md",
     "Kubernetes/Cluster Maintainence.md",
     "Kubernetes/Application Lifecycle Management.md",
-    "Jenkins/Terraform basic setup with docker compose.md",
     "Docker/Docker-for-Beginners-Mumshad-Mannambeth.pdf",
     "Windows",
     "Miscellaneous/Images/Pasted image 20250216013348.png",
