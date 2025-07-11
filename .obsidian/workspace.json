@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Transfer family sftp with windows smb share.md",
-                "mode": "source",
+                "file": "AWS/Lambda layer.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Transfer family sftp with windows smb share"
+              "title": "Lambda layer"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bot",
+                "query": "layer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,8 +189,8 @@
   },
   "active": "9f5e3dee1c455e6f",
   "lastOpenFiles": [
-    "Slack Notifications from AWS SNS.md",
     "AWS/Transfer family sftp with windows smb share.md",
+    "Slack Notifications from AWS SNS.md",
     "Linux/things to do with new setup (gnome).md",
     "CKA exam/logs check.md",
     "Miscellaneous/windows minimum ssh key permissions.md",
