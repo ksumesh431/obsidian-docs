@@ -11,10 +11,14 @@
             "id": "2d779e8fcf50c78c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux/debian.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "debian"
             }
           }
         ]
@@ -186,11 +190,13 @@
   },
   "active": "2d779e8fcf50c78c",
   "lastOpenFiles": [
+    "Linux/things to do with new setup (gnome).md",
+    "Linux/Things to test in nix.md",
+    "local linux setup.md",
     "CKA exam/logs check.md",
     "AWS/Lambda layer.md",
     "AWS/Transfer family sftp with windows smb share.md",
     "Slack Notifications from AWS SNS.md",
-    "Linux/things to do with new setup (gnome).md",
     "Miscellaneous/windows minimum ssh key permissions.md",
     "Linux/User and group creation in linux.md",
     "Linux/sudoers.md",
@@ -210,8 +216,6 @@
     "Kubernetes/kubectx and kubens cli.md",
     "Kubernetes/HA master kubeadm setup.md",
     "Kubernetes/Core Concepts.md",
-    "Kubernetes/Cluster Maintainence.md",
-    "Kubernetes/Application Lifecycle Management.md",
     "Docker/Docker-for-Beginners-Mumshad-Mannambeth.pdf",
     "Windows",
     "Miscellaneous/Images/Pasted image 20250216013348.png",

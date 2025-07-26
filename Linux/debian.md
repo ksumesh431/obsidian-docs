@@ -2,8 +2,9 @@
 trixie location
 https://cdimage.debian.org/cdimage/trixie_di_rc1/amd64/iso-dvd/
 
+---
 
-nvidia driver install
+# nvidia driver install
 
 install linux headers
 `sudo apt install linux-headers-$(uname -r)`
