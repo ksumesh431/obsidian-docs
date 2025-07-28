@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c94940931e7fbe5f",
+        "id": "051e344e82a6a09f",
         "type": "tabs",
         "children": [
           {
-            "id": "2d779e8fcf50c78c",
+            "id": "74124318b6512309",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/debian.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "debian"
+              "title": "New tab"
             }
           }
         ]
@@ -188,8 +184,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "2d779e8fcf50c78c",
+  "active": "74124318b6512309",
   "lastOpenFiles": [
+    "Linux/debian.md",
     "Linux/things to do with new setup (gnome).md",
     "Linux/Things to test in nix.md",
     "local linux setup.md",
@@ -203,7 +200,6 @@
     "Linux/Resizing root of ec2.md",
     "Linux/Other commands.md",
     "Linux/Normal Partitioning vs LVM.md",
-    "Linux/debian.md",
     "Linux/Boot process.md",
     "Kubernetes/Storage.md",
     "Kubernetes/Setup from scratch using kubeadm.md",
