@@ -11,10 +11,14 @@
             "id": "74124318b6512309",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux/things to do with new setup (gnome).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "things to do with new setup (gnome)"
             }
           }
         ]

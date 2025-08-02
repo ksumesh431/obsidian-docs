@@ -13,6 +13,11 @@ sudo dpkg-reconfigiure locales
 
 ```
 
+alias notes='nohup gnome-text-editor ~/notes > /dev/null 2>&1 &' for notes
+
+alias win='virsh --connect qemu:///system domstate win11micro | grep -q "running" || virsh --connect qemu:///system start win11micro; virt-manager --connect qemu:///system --show-domain-console win11micro'
+for virt manager win 11
+
 packages to install
 - telegram
 - fastfetch
@@ -23,3 +28,5 @@ packages to install
 
 
 FIX OBS
+
+copy aliasesas
