@@ -25,6 +25,7 @@ packages to install
 - vscode 
 - oh my posh terminal setup
 -  
+zen backup and restore in new stystem
 
 
 FIX OBS
