@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "things to do with new setup (gnome)"
             }
+          },
+          {
+            "id": "125a9dc2da38a44a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -188,7 +202,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "74124318b6512309",
+  "active": "125a9dc2da38a44a",
   "lastOpenFiles": [
     "Miscellaneous/windows virtmanager setup.md",
     "Linux/things to do with new setup (gnome).md",
