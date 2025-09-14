@@ -31,10 +31,12 @@ after installing vs code through ansible, open vs code  using
 
 install nvidia drivers
 setup flatpak and install obsidian
-setup git and download this obsidian repo
+
 
 install extension manager flatpak
 install extensions (make sure to have list or make git repo to sync)
+
+setup git (ssh) and download this obsidian repo
 
 set en us utf 8 locale (for btop and nerd fonts)
 ``` bash
