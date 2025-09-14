@@ -1,3 +1,34 @@
+
+use x11, change password
+/etc/pam.d/common-password, set password   requisite    pam_unix.so nullok yescrypt minlen=1
+Disable suspend on plug in , dark mode
+Open terminal , setup win+enter to open and cntr+w to close terminal
+set nocpmpatible in ~/.vimrc and ~/.bash_aliases cls, ll and install vim
+Setup apt repos if not setup and do apt update and full-upgrade
+Install git , clone and run https://github.com/ksumesh431/local_ansible_debian.git
+Login to google in firefox, setup t3 chat
+create task mfor download and install of vs code from t3. going forward, use it to edit play
+after installing vs code through ansible, open vs code  using 
+`sudo code /root/ansible-laptop --no-sandbox --user-data-dir /tmp`
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 install nvidia drivers
 setup flatpak and install obsidian
 setup git and download this obsidian repo
